@@ -9,29 +9,29 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v2
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
       with:
-        python-version: 3.8
+        python-version: 3.11
 
-    - name: Cache python dependencies
+    - name: Cache Python dependencies
       id: cache-pip
-      uses: actions/cache@v1
+      uses: actions/cache@v3
       with:
         path: ~/.cache/pip
-        key: pip-docs-${{ hashFiles('**/setup.json') }}
+        key: pip-docs-${{ hashFiles('pyproject.toml') }}
         restore-keys: |
           pip-docs-
 
-    - name: Install python dependencies
+    - name: Install Python dependencies
       run: |
         pip install .[docs]
 
     - name: Install Latex compiler
       run: |
-        sudo apt-get update
+        # sudo apt-get update
         # sudo apt-get install -y latexmk dvipng texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
 
     - name: Build documentation
