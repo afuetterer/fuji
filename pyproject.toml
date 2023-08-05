@@ -30,6 +30,9 @@ classifiers=[
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
     "Topic :: Scientific/Engineering :: Information Analysis",
 ]
 packages = [
@@ -100,4 +103,4 @@ dev = ["yapf", "pytest", "pre-commit", "pytest-cov", "pylint", "sphinx-rtd-theme
 
 [build-system]
 requires = ["poetry>=1.2.0a2"]
-build-backend = "poetry.masonry.api"
+build-backend = "poetry.core.masonry.api"
