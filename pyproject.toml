@@ -3,47 +3,47 @@ name = "fuji"
 version = "3.0.0"
 description = "FUJI (FAIRsFAIR Data Objects Assessment Service), A service to evaluate FAIR data objects based on FAIRsFAIR Metrics"
 authors = [
-    "Robert Huber <rhuber@marum.de>",
-    "Anusuriya Devaraju <anusuriya.devaraju@googlemail.com>",
+  "Robert Huber <rhuber@marum.de>",
+  "Anusuriya Devaraju <anusuriya.devaraju@googlemail.com>",
 ]
 license = "MIT"
 #TODO: figure out why the README causes failure of building the docker container
 #readme = "README.md"
 homepage = "https://www.f-uji.net"
 repository = "https://github.com/pangaea-data-publisher/fuji"
-keywords=[
-    "PANGAEA",
-    "FAIRsFAIR",
-    "FAIR Principles",
-    "Data Object Assessment",
-    "Swagger",
-    "FAIR",
-    "Research Data",
-    "FAIR data",
-    "Metadata harvesting",
+keywords = [
+  "PANGAEA",
+  "FAIRsFAIR",
+  "FAIR Principles",
+  "Data Object Assessment",
+  "Swagger",
+  "FAIR",
+  "Research Data",
+  "FAIR data",
+  "Metadata harvesting",
 ]
-classifiers=[
-    "Development Status :: 5 - Production/Stable",
-    "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Topic :: Scientific/Engineering :: Information Analysis",
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Topic :: Scientific/Engineering :: Information Analysis",
 ]
 packages = [
-    { include = "fuji_server" }
+  { include = "fuji_server" }
 ]
 include = [
-    "docs/**",
-    "fuji_server/data/*",
-    "fuji_server/static/*",
-    "fuji_server/yaml/*",
-    "fuji_server/config/*",
-    "AUTHORS.txt",
-    "CHANGELOG.md",
-    "LICENSE",
-    "README.md"
+  "docs/**",
+  "fuji_server/data/*",
+  "fuji_server/static/*",
+  "fuji_server/yaml/*",
+  "fuji_server/config/*",
+  "AUTHORS.txt",
+  "CHANGELOG.md",
+  "LICENSE",
+  "README.md",
 ]
 
 [tool.poetry.dependencies]
@@ -51,12 +51,12 @@ python = "^3.8.17"
 autosemver = "~0.5.5"
 beautifulsoup4 = "~4.8.2"
 configparser = "~5.0.2"
-connexion = {version = "~2.9.0", extras = ["swagger-ui"]}
+connexion = { version = "~2.9.0", extras = ["swagger-ui"] }
 extruct = "~0.13.0"
 feedparser = "~6.0.8"
 flask = "~1.1.4"
 flask-cors = "~3.0.10"
-flask-limiter ="<=2.0.0"
+flask-limiter = "<=2.0.0"
 hashid = "~3.1.4"
 idutils = "~1.1.5"
 jmespath = "~0.10.0"
@@ -76,24 +76,31 @@ sparqlwrapper = "~1.8.5"
 tika = "~1.24"
 tldextract = "~3.1.2"
 urlextract = "~1.2.0"
-waitress ="~2.1.1"
+waitress = "~2.1.1"
 werkzeug = "<2.0, >1.0.0"
-bokeh = {version = "^2.4.1", optional = true}
-docutils = {version =">=0.14,<0.18", optional = true}
-jupyter = {version = "^1.0.0", optional = true}
-myst-parser = {version= "^0.16.1", optional = true}
-pre-commit = {version = "^2.6.0", optional = true}
-pytest = {version = "^4.3.1", optional = true}
-pytest-cov = {version = "^3.0.0", optional = true}
-sphinx = {version = "^4.2.0", optional = true}
-sphinx-rtd-theme = {version = "^1.0.0", optional = true}
+bokeh = { version = "^2.4.1", optional = true }
+docutils = { version = ">=0.14,<0.18", optional = true }
+jupyter = { version = "^1.0.0", optional = true }
+myst-parser = { version = "^0.16.1", optional = true }
+pre-commit = { version = "^2.6.0", optional = true }
+pytest = { version = "^4.3.1", optional = true }
+pytest-cov = { version = "^3.0.0", optional = true }
+sphinx = { version = "^4.2.0", optional = true }
+sphinx-rtd-theme = { version = "^1.0.0", optional = true }
 
 [tool.poetry.extras]
 report = ["bokeh", "jupyter"]
 testing = ["pytest", "pre-commit", "pytest-cov"]
 docs = ["sphinx-rtd-theme", "sphinx", "docutils", "myst-parser"]
-dev = ["pytest", "pre-commit", "pytest-cov", "sphinx-rtd-theme", "sphinx", "docutils"]
+dev = [
+  "pytest",
+  "pre-commit",
+  "pytest-cov",
+  "sphinx-rtd-theme",
+  "sphinx",
+  "docutils",
+]
 
 [build-system]
-requires = ["poetry-core>=1.5.0"]
 build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.5"]
