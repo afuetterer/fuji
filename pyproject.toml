@@ -103,3 +103,18 @@ dev = [
 [build-system]
 build-backend = "poetry.core.masonry.api"
 requires = ["poetry-core>=1.5"]
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+
+[tool.coverage.run]
+source_pkgs = ["fuji_server"]
+
+[tool.coverage.report]
+skip_empty = true
+
+[tool.poe.tasks]
+test = "pytest"
+cov = "pytest --cov"
+cov-xml = "pytest --cov --cov-report=xml"
+cov-html = "pytest --cov --cov-report=html"
