@@ -40,8 +40,7 @@ include = [
   "fuji_server/static/*",
   "fuji_server/yaml/*",
   "fuji_server/config/*",
-  "AUTHORS.txt",
-  "CHANGELOG.md",
+  "AUTHORS",
   "LICENSE",
   "README.md",
 ]
