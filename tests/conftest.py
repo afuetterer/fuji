@@ -27,7 +27,7 @@ def test_config():
     config.read(TEST_CONFIG_FILE_PATH)
     return config
 
-@pytest.fixture(scope="session")
+@pytest.fixture(scope="module")
 def preprocessor(test_config) -> Preprocessor:
 
     YAML_DIR = test_config["SERVICE"]["yaml_directory"]
@@ -61,26 +61,18 @@ def preprocessor(test_config) -> Preprocessor:
     # initialize_preprocessor(test_config)
     # return Preprocessor
 
-@pytest.fixture(scope="session")
+@pytest.fixture(scope="module")
 def app(test_config, preprocessor: Preprocessor) -> "Flask":
     _app = create_fuji_app(test_config)
     _app.testing = True
     return _app.app
 
 
-
-
-
-
-@pytest.fixture(scope="session")
+@pytest.fixture(scope="module")
 def client(app: "Flask") -> "FlaskClient":
     """A flask test_client."""
     with app.test_client() as test_client:
         yield test_client
-
-
-
-
 
 
 #TODO: fixture?
