@@ -105,6 +105,4 @@ jobs:
         pip freeze
 
     - name: Run pytest
-      run: |
-        cd tests/ && python3 print_install.py
-        ./run_all_cov.sh
+      run: pytest --cov
