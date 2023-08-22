@@ -3,7 +3,7 @@
 Here we test the Preprocessor class which provides the reference data for a server
 
 Comments to this:
-Preprocessor is a singledton, therefore we need to proper tear it up and down.
+Preprocessor is a singleton, therefore we need to proper tear it up and down.
 
 isDebug=True read the files in fuji_server/data
 isDebug=False, run harvesting code
@@ -26,7 +26,7 @@ def test_preprocessor_licences(test_config, temp_preprocessor):
     SPDX_URL = test_config['EXTERNAL']['spdx_license_github']
     assert temp_preprocessor.total_licenses == 0
 
-    temp_preprocessor.retrieve_licenses(SPDX_URL, isDebug)
+    temp_preprocessor.retrieve_licenses(isDebug)
     assert temp_preprocessor.total_licenses > 0
     assert len(temp_preprocessor.all_licenses) == temp_preprocessor.total_licenses
 
@@ -39,7 +39,7 @@ def test_preprocessor_re3repos(test_config, temp_preprocessor):
 
     assert len(temp_preprocessor.re3repositories.keys()) == 0  # this is initialized why?
 
-    temp_preprocessor.retrieve_datacite_re3repos(RE3DATA_API, DATACITE_API_REPO, isDebug)
+    temp_preprocessor.retrieve_datacite_re3repos()
 
     assert temp_preprocessor.re3repositories
     assert len(temp_preprocessor.re3repositories.keys()) > 10
@@ -53,7 +53,7 @@ def test_preprocessor_metadata_standards(test_config, temp_preprocessor):
 
     assert not temp_preprocessor.metadata_standards
 
-    temp_preprocessor.retrieve_metadata_standards(METADATACATALOG_API, isDebug)
+    temp_preprocessor.retrieve_metadata_standards()
 
     assert temp_preprocessor.metadata_standards
     print(temp_preprocessor.metadata_standards)
