@@ -65,6 +65,6 @@ def test_fair_check(identifier, oai_pmh, summary_expected):
 
     logmessages = ft.get_log_messages_dict()
     summary = ft.get_assessment_summary(results)
-    print(summary)
+    # print(summary)
 
     assert summary_expected == summary  #['score_percent']

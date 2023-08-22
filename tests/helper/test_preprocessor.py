@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Here we test the Preprocessor class which provides the reference data for a server
 
@@ -16,69 +15,99 @@ markers. These tests can be run prior to a release manually.
 They mock the fuji_server/data path to not override the files under fuji server
 
 """
+import pytest
+
+from fuji_server.helper.preprocessor import Preprocessor
+
 isDebug = True
 fuji_server_dir = './data_test/'
 
+@pytest.fixture()
+def temporary_preprocessor() -> Preprocessor:
 
-def test_preprocessor_licences(test_config, temp_preprocessor):
+    # todo: this does not work
+
+    preprocessor = Preprocessor()
+    # preprocessor._instance = None
+    yield preprocessor
+    preprocessor._instance = None
+
+
+def test_retrieve_licenses(temporary_preprocessor):
     """Test preprocessor if retrieve_licences works"""
 
-    SPDX_URL = test_config['EXTERNAL']['spdx_license_github']
-    assert temp_preprocessor.total_licenses == 0
+    print()
+    print('---------------')
+    print("licenses")
+    print(temporary_preprocessor)
+    print(temporary_preprocessor._instance)
 
-    temp_preprocessor.retrieve_licenses(isDebug)
-    assert temp_preprocessor.total_licenses > 0
-    assert len(temp_preprocessor.all_licenses) == temp_preprocessor.total_licenses
+    assert temporary_preprocessor.total_licenses == 0
+    temporary_preprocessor.retrieve_licenses(isDebug)
+    assert temporary_preprocessor.total_licenses > 0
+    assert len(temporary_preprocessor.all_licenses) == temporary_preprocessor.total_licenses
 
 
-def test_preprocessor_re3repos(test_config, temp_preprocessor):
+def test_retrieve_datacite_re3repos(temporary_preprocessor):
     """Test preprocessor if retrieve_re3repos works"""
 
-    DATACITE_API_REPO = test_config['EXTERNAL']['datacite_api_repo']
-    RE3DATA_API = test_config['EXTERNAL']['re3data_api']
+    print()
+    print('---------------')
+    print("datacite_re3repos")
+    print(temporary_preprocessor)
+    print(temporary_preprocessor._instance)
 
-    assert len(temp_preprocessor.re3repositories.keys()) == 0  # this is initialized why?
-
-    temp_preprocessor.retrieve_datacite_re3repos()
-
-    assert temp_preprocessor.re3repositories
-    assert len(temp_preprocessor.re3repositories.keys()) > 10
-    #print(len(temp_preprocessor.re3repositories.keys()))
+    assert bool(temporary_preprocessor.re3repositories) is False
+    temporary_preprocessor.retrieve_datacite_re3repos()
+    assert bool(temporary_preprocessor.re3repositories) is True
+    assert len(temporary_preprocessor.re3repositories.keys()) > 10
 
 
-def test_preprocessor_metadata_standards(test_config, temp_preprocessor):
+
+
+def test_retrieve_metadata_standards(temporary_preprocessor):
     """Test preprocessor if retrieve_metadata_standards works"""
 
-    METADATACATALOG_API = test_config['EXTERNAL']['metadata_catalog']
+    print()
+    print('---------------')
+    print("metadata_standards")
+    print(temporary_preprocessor)
+    print(temporary_preprocessor._instance)
 
-    assert not temp_preprocessor.metadata_standards
+    assert bool(temporary_preprocessor.metadata_standards) is False
+    temporary_preprocessor.retrieve_metadata_standards()
 
-    temp_preprocessor.retrieve_metadata_standards()
-
-    assert temp_preprocessor.metadata_standards
-    print(temp_preprocessor.metadata_standards)
-    assert len(temp_preprocessor.metadata_standards.keys()) > 10
+    assert temporary_preprocessor.metadata_standards
+    assert len(temporary_preprocessor.metadata_standards.keys()) > 10
 
 
-def test_preprocessor_retrieve_linkedvocabs(test_config, temp_preprocessor):
+# todo linked vocab json
+
+def test_retrieve_linkedvocabs(temporary_preprocessor, test_config):
     """Test preprocessor if retrieve_linkedvocabs works"""
+
+    print()
+    print('---------------')
+    print("linked_vocabs")
+    print(temporary_preprocessor)
+    print(temporary_preprocessor._instance)
 
     LOV_API = test_config['EXTERNAL']['lov_api']
     LOD_CLOUDNET = test_config['EXTERNAL']['lod_cloudnet']
-    assert not temp_preprocessor.linked_vocabs
+    assert bool(temporary_preprocessor.linked_vocabs) is False
+    # assert not temp_preprocessor.linked_vocabs
 
-    temp_preprocessor.retrieve_linkedvocabs(lov_api=LOV_API, lodcloud_api=LOD_CLOUDNET, isDebugMode=isDebug)
+    temporary_preprocessor.retrieve_linkedvocabs(lov_api=LOV_API, lodcloud_api=LOD_CLOUDNET, isDebugMode=isDebug)
+    assert bool(temporary_preprocessor.linked_vocabs) is True
+    assert len(temporary_preprocessor.linked_vocabs) > 10
 
-    assert temp_preprocessor.linked_vocabs
-    assert len(temp_preprocessor.linked_vocabs) > 10
 
-
-def test_preprocessor_rest(test_config, temp_preprocessor):
+def test_preprocessor_rest(temporary_preprocessor):
     """Test preprocessor if others works"""
 
-    METADATACATALOG_API = test_config['EXTERNAL']['metadata_catalog']
+    # METADATACATALOG_API = test_config['EXTERNAL']['metadata_catalog']
 
-    assert not temp_preprocessor.default_namespaces
+    assert not temporary_preprocessor.default_namespaces
 
-    temp_preprocessor.retrieve_default_namespaces()
-    assert len(temp_preprocessor.default_namespaces) > 10
+    temporary_preprocessor.retrieve_default_namespaces()
+    assert len(temporary_preprocessor.default_namespaces) > 10
