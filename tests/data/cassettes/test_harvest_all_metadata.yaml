@@ -21,7 +21,7 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 7ff6488e9e8d3719-FRA
+      - 7ffb3675eb710408-FRA
       Connection:
       - close
       Content-Length:
@@ -29,11 +29,11 @@ interactions:
       Content-Type:
       - text/html;charset=utf-8
       Date:
-      - Thu, 31 Aug 2023 15:24:58 GMT
+      - Fri, 01 Sep 2023 05:46:25 GMT
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VOmC00fXzQu%2F0j1yxdpcdap5r9ozkl6YD%2BenHF3rTvSeCCIXA4L7gjoHLPD4f1Ho8wUPDGOCoroF7akZllDAHzP9Sp6MQG%2F2rFdErRV6n9D0S%2BHYlkbRJMHgYKma0iofTTLHQ%2BQ%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vB6k6EJ%2FZ8rQAe6ZouO4GHYG0X9P5kBsnbjvkXpfPJb4rjiVzrIDW8JELBrH9%2BunDi2eyvRXnmXaVowBxEofvJwPRB8GPGbYiDRqE3evRcS%2BbpmCqVMaJ%2FY8lzx7zo9Vpb771lQ%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Strict-Transport-Security:
@@ -41,7 +41,7 @@ interactions:
       alt-svc:
       - h3=":443"; ma=86400
       expires:
-      - Thu, 31 Aug 2023 15:40:36 GMT
+      - Fri, 01 Sep 2023 06:41:37 GMT
       location:
       - https://doi.pangaea.de/10.1594/PANGAEA.902845
       permissions-policy:
@@ -1103,7 +1103,7 @@ interactions:
       Content-Type:
       - text/html;charset=utf-8
       Date:
-      - Thu, 31 Aug 2023 15:24:58 GMT
+      - Fri, 01 Sep 2023 05:46:29 GMT
       Link:
       - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=citation_ris>;rel="describedby";type="application/x-research-info-systems",
         <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=metadata_datacite4>;rel="describedby";type="application/vnd.datacite.datacite+xml",
@@ -1119,7 +1119,7 @@ interactions:
       Server:
       - nginx/1.25.2
       Set-Cookie:
-      - pansessid=b284f21a4ac52d6e2a5bb4183de1f9b5; Path=/; Domain=.pangaea.de; Secure;
+      - pansessid=b4847dbcc48e6bbc43beb49f6dbb6da6; Path=/; Domain=.pangaea.de; Secure;
         HttpOnly
       Strict-Transport-Security:
       - max-age=31536000
@@ -1128,7 +1128,7 @@ interactions:
       Vary:
       - Origin, Cookie, Authorization, Accept
       X-CID:
-      - b284f21a4ac52d6e2a5bb4183de1f9b5
+      - b4847dbcc48e6bbc43beb49f6dbb6da6
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -1166,7 +1166,7 @@ interactions:
       Content-Length:
       - '0'
       Date:
-      - Thu, 31 Aug 2023 15:24:59 GMT
+      - Fri, 01 Sep 2023 05:46:30 GMT
       Server:
       - nginx/1.25.2
       Strict-Transport-Security:
@@ -1206,7 +1206,7 @@ interactions:
       Content-Length:
       - '0'
       Date:
-      - Thu, 31 Aug 2023 15:24:59 GMT
+      - Fri, 01 Sep 2023 05:46:30 GMT
       Server:
       - nginx/1.25.2
       Strict-Transport-Security:
@@ -1323,7 +1323,7 @@ interactions:
       Content-Type:
       - application/ld+json; charset=UTF-8
       Date:
-      - Thu, 31 Aug 2023 15:24:59 GMT
+      - Fri, 01 Sep 2023 05:46:30 GMT
       Link:
       - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845>;rel="describes",
         <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip>;rel="item";type="application/zip",
@@ -1332,7 +1332,7 @@ interactions:
       Server:
       - nginx/1.25.2
       Set-Cookie:
-      - pansessid=85deea8879c66445dcc69ba4567448b0; Path=/; Domain=.pangaea.de; Secure;
+      - pansessid=2807df4e5588ea7dbec294361b2144f4; Path=/; Domain=.pangaea.de; Secure;
         HttpOnly
       Strict-Transport-Security:
       - max-age=31536000
@@ -1341,7 +1341,7 @@ interactions:
       Vary:
       - Origin, Cookie, Authorization, Accept
       X-CID:
-      - 85deea8879c66445dcc69ba4567448b0
+      - 2807df4e5588ea7dbec294361b2144f4
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -1373,7 +1373,7 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 7ff648996811903d-FRA
+      - 7ffb369698b8905e-FRA
       Connection:
       - close
       Content-Length:
@@ -1381,11 +1381,11 @@ interactions:
       Content-Type:
       - text/html;charset=utf-8
       Date:
-      - Thu, 31 Aug 2023 15:24:59 GMT
+      - Fri, 01 Sep 2023 05:46:30 GMT
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LPDlFPbBONCrZ2ZER%2FhS%2F7o%2Bu3vO83sjeQd1K1DUx1oqLCRsUmEAXN9Y4rV3Rkv9j2WJKdWPp4JQRQ4lHpMdiear8nXeC%2BJuz2KD94YVbYqP5%2FHNiChJ6G11F7MT2SlagAiw6uI%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=F2glRrJXNpXJYrNeA2sJMR0pFNUPY7jraMo6icy%2FAAJhjX4tAGaBNXdzDtfrmBjWOz%2FSxkH3rdPWWOvLrboYIcbkqkn5zYJAtFhIBlsLftcYRQvuGwzaRovICN%2Fn35Qmqhwc4G4%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Strict-Transport-Security:
@@ -1393,7 +1393,7 @@ interactions:
       alt-svc:
       - h3=":443"; ma=86400
       expires:
-      - Thu, 31 Aug 2023 15:41:15 GMT
+      - Fri, 01 Sep 2023 06:41:33 GMT
       location:
       - https://data.crosscite.org/10.1594%2FPANGAEA.902845
       permissions-policy:
@@ -1473,7 +1473,7 @@ interactions:
       Content-Type:
       - application/vnd.schemaorg.ld+json; charset=utf-8
       Date:
-      - Thu, 31 Aug 2023 15:25:03 GMT
+      - Fri, 01 Sep 2023 05:46:34 GMT
       ETag:
       - W/"859e8af6389958403014452a159b39ec"
       Server:
@@ -1487,9 +1487,9 @@ interactions:
       X-Powered-By:
       - Phusion Passenger(R) 6.0.13
       X-Request-Id:
-      - e7884d05-28b9-4a38-8053-045c0a6f2174
+      - 98cf449f-05bc-4986-b8fc-5b3ba1dfa429
       X-Runtime:
-      - '0.017193'
+      - '0.018308'
     status:
       code: 200
       message: OK
@@ -1515,7 +1515,7 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 7ff648b3589739e8-FRA
+      - 7ffb36ada8ce9bec-FRA
       Connection:
       - close
       Content-Length:
@@ -1523,11 +1523,11 @@ interactions:
       Content-Type:
       - text/html;charset=utf-8
       Date:
-      - Thu, 31 Aug 2023 15:25:04 GMT
+      - Fri, 01 Sep 2023 05:46:34 GMT
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=elbgpacLiit%2BNMmMpGxOEN3hyE5l6ENVE3%2FVuUx%2FGCM0ZgbmGg3lgpaHowUooKxkU89P5Xu8Uh7JFAHYndxukuCTMC81GxzdHSCr8iVpVmHEt22f0SJMDGoAM5sAEoyTQWfGLGs%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=S1P%2BOcRCqpo1eG%2Flbk7QHkd%2FtqXQUhbz2Lh4nTKorVUOvwbxlybwDh%2FP2c2qsroijyZxWuMnVlbxPVZ7u0wYVT0Fnbb0dcF%2BzzEKao4j6spcidpvACmOuck%2B5XWgakLqNM2ougI%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Strict-Transport-Security:
@@ -1535,7 +1535,7 @@ interactions:
       alt-svc:
       - h3=":443"; ma=86400
       expires:
-      - Thu, 31 Aug 2023 15:41:15 GMT
+      - Fri, 01 Sep 2023 06:41:37 GMT
       location:
       - https://doi.pangaea.de/10.1594/PANGAEA.902845
       permissions-policy:
@@ -2597,7 +2597,7 @@ interactions:
       Content-Type:
       - text/html;charset=utf-8
       Date:
-      - Thu, 31 Aug 2023 15:25:04 GMT
+      - Fri, 01 Sep 2023 05:46:34 GMT
       Link:
       - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=citation_ris>;rel="describedby";type="application/x-research-info-systems",
         <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=metadata_datacite4>;rel="describedby";type="application/vnd.datacite.datacite+xml",
@@ -2613,7 +2613,7 @@ interactions:
       Server:
       - nginx/1.25.2
       Set-Cookie:
-      - pansessid=9ff1c9089adeeaf94081fee251f20f38; Path=/; Domain=.pangaea.de; Secure;
+      - pansessid=a32c496c5ce8abc6b16b680e53f47ba3; Path=/; Domain=.pangaea.de; Secure;
         HttpOnly
       Strict-Transport-Security:
       - max-age=31536000
@@ -2622,7 +2622,7 @@ interactions:
       Vary:
       - Origin, Cookie, Authorization, Accept
       X-CID:
-      - 9ff1c9089adeeaf94081fee251f20f38
+      - a32c496c5ce8abc6b16b680e53f47ba3
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -2738,7 +2738,7 @@ interactions:
       Content-Type:
       - application/ld+json; charset=UTF-8
       Date:
-      - Thu, 31 Aug 2023 15:25:04 GMT
+      - Fri, 01 Sep 2023 05:46:35 GMT
       Link:
       - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845>;rel="describes",
         <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip>;rel="item";type="application/zip",
@@ -2747,7 +2747,7 @@ interactions:
       Server:
       - nginx/1.25.2
       Set-Cookie:
-      - pansessid=57e9a8e350de517e5ac15e591eb53ba3; Path=/; Domain=.pangaea.de; Secure;
+      - pansessid=bfece380d060e00654910a64a0773ea3; Path=/; Domain=.pangaea.de; Secure;
         HttpOnly
       Strict-Transport-Security:
       - max-age=31536000
@@ -2756,7 +2756,7 @@ interactions:
       Vary:
       - Origin, Cookie, Authorization, Accept
       X-CID:
-      - 57e9a8e350de517e5ac15e591eb53ba3
+      - bfece380d060e00654910a64a0773ea3
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -2789,7 +2789,7 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 7ff648b93aea9b4c-FRA
+      - 7ffb36b39e5e1e6e-FRA
       Connection:
       - close
       Content-Length:
@@ -2797,11 +2797,11 @@ interactions:
       Content-Type:
       - text/html;charset=utf-8
       Date:
-      - Thu, 31 Aug 2023 15:25:04 GMT
+      - Fri, 01 Sep 2023 05:46:35 GMT
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0kth51yr4lapNlVIaEps7f3j%2FXkr9GLFyyUQypr96Htw3TpfdB%2BGiuUrJAqjmpkEWp295ny%2BPRpgQU8OqBJRieS%2F7n7Z5Gr5jpufnh6kyNiLKdPNUhcv8GL3Sqz0as1v0vob6hk%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=O7B6WulHxPJfGzd5tBZK%2BUcaaf6CS9IAgWxXkRm3Q%2BipWibDRO20d2A%2F0JtzLABANDdJz8w82xd9mNjh0cUQDJ9H9ShYRfUZw37XOFNq%2Faqhcx%2BctKelHhtsIFq9nNOKtIZjsqQ%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Strict-Transport-Security:
@@ -2809,7 +2809,7 @@ interactions:
       alt-svc:
       - h3=":443"; ma=86400
       expires:
-      - Thu, 31 Aug 2023 15:41:21 GMT
+      - Fri, 01 Sep 2023 06:41:33 GMT
       location:
       - https://data.crosscite.org/10.1594%2FPANGAEA.902845
       permissions-policy:
@@ -2844,7 +2844,7 @@ interactions:
       Content-Type:
       - text/plain; charset=utf-8
       Date:
-      - Thu, 31 Aug 2023 15:25:05 GMT
+      - Fri, 01 Sep 2023 05:46:35 GMT
       Server:
       - nginx/1.18.0 + Phusion Passenger(R) 6.0.13
       Status:
@@ -2856,9 +2856,9 @@ interactions:
       X-Powered-By:
       - Phusion Passenger(R) 6.0.13
       X-Request-Id:
-      - 32f89c8c-3718-4349-b340-9a18101934ff
+      - 1f9f25b7-67ab-4bdd-a89c-443e77edb5e4
       X-Runtime:
-      - '0.017605'
+      - '0.101862'
     status:
       code: 422
       message: Unprocessable Entity
@@ -2884,7 +2884,7 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 7ff648bc9e79902a-FRA
+      - 7ffb36b7ad3435e2-FRA
       Connection:
       - close
       Content-Length:
@@ -2892,11 +2892,11 @@ interactions:
       Content-Type:
       - text/html;charset=utf-8
       Date:
-      - Thu, 31 Aug 2023 15:25:05 GMT
+      - Fri, 01 Sep 2023 05:46:36 GMT
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sWC1CqPzTTkitZ2RZsG0QUPp2wIA%2BvA75ire2pASQw%2Bas6W2Gn3Ik5AJoVgM%2B971s2t%2FqjnQsXXdXwB6A7%2BVDW9sFb28FJbzlP8%2BMDJXWxDeQq%2BPRJIfGSzXNLt%2F9RFZSIwbVjg%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fHgnHsgeRWUHtQDd9OwNtOAthkqtspuX3QaSgwuasJVbbljJwubIQRS05IgSlWSZNONoGxA7U9fJf04vJdE7HcyEevJtyr1tGtm9iffnANpasvNDrbrDUDjfaa66Hzr7zD3W%2Ft8%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Strict-Transport-Security:
@@ -2904,7 +2904,7 @@ interactions:
       alt-svc:
       - h3=":443"; ma=86400
       expires:
-      - Thu, 31 Aug 2023 15:40:45 GMT
+      - Fri, 01 Sep 2023 06:40:56 GMT
       location:
       - https://data.crosscite.org/10.1594%2FPANGAEA.902845
       permissions-policy:
@@ -3011,7 +3011,7 @@ interactions:
       Content-Type:
       - application/vnd.datacite.datacite+json; charset=utf-8
       Date:
-      - Thu, 31 Aug 2023 15:25:05 GMT
+      - Fri, 01 Sep 2023 05:46:36 GMT
       ETag:
       - W/"320d5950352e0b9d8e184e6a84b7b5fd"
       Server:
@@ -3025,9 +3025,9 @@ interactions:
       X-Powered-By:
       - Phusion Passenger(R) 6.0.13
       X-Request-Id:
-      - 1359a460-a9ec-4e38-bdae-4f519a73e74b
+      - dff113c7-6144-4ff1-8117-a6a4a7e2b747
       X-Runtime:
-      - '0.018066'
+      - '0.018114'
     status:
       code: 200
       message: OK
@@ -3035,7 +3035,7 @@ interactions:
     body: null
     headers:
       Accept:
-      - application/vnd.datacite.datacite+xml,application/xml, text/xml;q=0.5
+      - application/vnd.iso19139.metadata+xml,application/xml, text/xml;q=0.5
       Connection:
       - close
       Host:
@@ -3043,53 +3043,326 @@ interactions:
       User-Agent:
       - F-UJI
     method: GET
-    uri: https://doi.pangaea.de/10.1594/PANGAEA.902845?format=metadata_datacite4
+    uri: https://doi.pangaea.de/10.1594/PANGAEA.902845?format=metadata_iso19139
   response:
     body:
-      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><resource xsi:schemaLocation=\"http://datacite.org/schema/kernel-4
-        http://schema.datacite.org/meta/kernel-4.3/metadata.xsd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
-        xmlns=\"http://datacite.org/schema/kernel-4\"><identifier identifierType=\"DOI\">10.1594/PANGAEA.902845</identifier><creators><creator><creatorName>B\xE4rfuss,
-        Konrad</creatorName><givenName>Konrad</givenName><familyName>B\xE4rfuss</familyName><nameIdentifier
-        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0001-5130-5494</nameIdentifier></creator><creator><creatorName>Hankers,
-        Rudolf</creatorName><givenName>Rudolf</givenName><familyName>Hankers</familyName></creator><creator><creatorName>Bitter,
-        Mark</creatorName><givenName>Mark</givenName><familyName>Bitter</familyName></creator><creator><creatorName>Feuerle,
-        Thomas</creatorName><givenName>Thomas</givenName><familyName>Feuerle</familyName></creator><creator><creatorName>Schulz,
-        Helmut</creatorName><givenName>Helmut</givenName><familyName>Schulz</familyName></creator><creator><creatorName>Rausch,
-        Thomas</creatorName><givenName>Thomas</givenName><familyName>Rausch</familyName></creator><creator><creatorName>Platis,
-        Andreas</creatorName><givenName>Andreas</givenName><familyName>Platis</familyName><nameIdentifier
-        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0002-9276-3587</nameIdentifier></creator><creator><creatorName>Bange,
-        Jens</creatorName><givenName>Jens</givenName><familyName>Bange</familyName><nameIdentifier
-        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0003-4075-1573</nameIdentifier></creator><creator><creatorName>Lampert,
-        Astrid</creatorName><givenName>Astrid</givenName><familyName>Lampert</familyName><nameIdentifier
-        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0003-1414-1616</nameIdentifier></creator></creators><titles><title>In-situ
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><!--*** Generated from internal
+        PANGAEA metadata schema by iso19139.xslt ***--><MD_Metadata xsi:schemaLocation=\"http://www.isotc211.org/2005/gmd
+        http://www.isotc211.org/2005/gmd/gmd.xsd\" id=\"de.pangaea.dataset902845\"
+        xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\"
+        xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gml=\"http://www.opengis.net/gml\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.isotc211.org/2005/gmd\">\n<fileIdentifier>\n<gco:CharacterString>de.pangaea.dataset902845</gco:CharacterString>\n</fileIdentifier>\n<language>\n<LanguageCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#LanguageCode\"
+        codeListValue=\"eng\">eng</LanguageCode>\n</language>\n<hierarchyLevel>\n<MD_ScopeCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode\"
+        codeListValue=\"dataset\">dataset</MD_ScopeCode>\n</hierarchyLevel>\n<contact>\n<CI_ResponsibleParty>\n<organisationName>\n<gco:CharacterString>PANGAEA</gco:CharacterString>\n</organisationName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>info@pangaea.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://www.pangaea.de/</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"pointOfContact\">pointOfContact</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</contact>\n<dateStamp>\n<gco:DateTime>2023-07-26T11:51:00Z</gco:DateTime>\n</dateStamp>\n<dataSetURI>\n<gco:CharacterString>https://doi.pangaea.de/10.1594/PANGAEA.902845</gco:CharacterString>\n</dataSetURI>\n<identificationInfo>\n<MD_DataIdentification>\n<citation>\n<CI_Citation>\n<title>\n<gco:CharacterString>In-situ
         airborne measurements of atmospheric and sea surface parameters related to
-        offshore wind parks in the German Bight</title></titles><publisher>PANGAEA</publisher><publicationYear>2019</publicationYear><subjects><subject>airborne
-        measurements</subject><subject>German Bight</subject><subject>meteorological
-        parameters</subject><subject>offshore wind park</subject><subject>sea surface</subject><subject>wake</subject><subject
-        subjectScheme=\"Project\">Wind Park Far Field (WIPAFF)</subject></subjects><dates><date
-        dateType=\"Collected\">2016-09-06T12:13:11/2017-10-15T15:51:13</date></dates><language>en</language><resourceType
-        resourceTypeGeneral=\"Collection\">Publication Series of Datasets</resourceType><relatedIdentifiers><relatedIdentifier
-        relatedIdentifierType=\"DOI\" relationType=\"References\">10.1038/s41598-018-20389-y</relatedIdentifier><relatedIdentifier
-        relatedIdentifierType=\"DOI\" relationType=\"References\">10.1088/1748-9326/aaea0b</relatedIdentifier><relatedIdentifier
-        relatedIdentifierType=\"DOI\" relationType=\"References\">10.1127/metz/2018/0900</relatedIdentifier></relatedIdentifiers><sizes><size>41
-        datasets</size></sizes><formats><format>application/zip</format></formats><rightsList><rights
-        rightsURI=\"https://creativecommons.org/licenses/by/4.0/\" schemeURI=\"https://spdx.org/licenses/\"
-        rightsIdentifierScheme=\"SPDX\" rightsIdentifier=\"CC-BY-4.0\">Creative Commons
-        Attribution 4.0 International</rights></rightsList><descriptions><description
-        descriptionType=\"Abstract\">Offshore wind parks interact with the marine
-        atmospheric boundary layer and can create long downstream wakes of reduced
-        wind speed and changed turbulence. During the project WIPAFF (wind park far
-        field) funded by the German Federal Ministry for Economic Affairs and Energy
-        (grant number 0325783B), 41 measurement flights were performed with the research
-        aircraft Dornier-128 of TU Braunschweig between September 2016 and October
-        2017. The aircraft recorded in-situ meteorological parameters (wind vector,
-        temperature, humidity) and sea surface properties (temperature, elevation
-        standard deviation)<br/>The flights comprise vertical soundings and straight
-        legs upstream, downstream and above wind parks for different synoptic conditions.</description></descriptions><geoLocations><geoLocation><geoLocationBox><westBoundLongitude>6.516988</westBoundLongitude><eastBoundLongitude>9.158623</eastBoundLongitude><southBoundLatitude>53.452294</southBoundLatitude><northBoundLatitude>54.993339</northBoundLatitude></geoLocationBox></geoLocation></geoLocations><fundingReferences><fundingReference><funderName>Federal
-        Ministry for Economic Affairs and Energy</funderName><funderIdentifier funderIdentifierType=\"Crossref
-        Funder ID\">https://doi.org/10.13039/501100006360</funderIdentifier><awardNumber
-        awardURI=\"https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&amp;fkz=0325783B\">0325783B</awardNumber><awardTitle>Wind
-        Park Far Field / Wind Plant Far Field</awardTitle></fundingReference></fundingReferences></resource>"
+        offshore wind parks in the German Bight</gco:CharacterString>\n</title>\n<date>\n<CI_Date>\n<date>\n<gco:DateTime>2019-06-21T11:51:58</gco:DateTime>\n</date>\n<dateType>\n<CI_DateTypeCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode\"
+        codeListValue=\"publication\">publication</CI_DateTypeCode>\n</dateType>\n</CI_Date>\n</date>\n<identifier>\n<MD_Identifier>\n<code>\n<gco:CharacterString>https://doi.org/10.1594/PANGAEA.902845</gco:CharacterString>\n</code>\n</MD_Identifier>\n</identifier>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"dataset.author69919\">\n<individualName>\n<gco:CharacterString>B\xE4rfuss,
+        Konrad</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>k.baerfuss@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-5130-5494</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"dataset.author69920\">\n<individualName>\n<gco:CharacterString>Hankers,
+        Rudolf</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>r.hankers@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"dataset.author69921\">\n<individualName>\n<gco:CharacterString>Bitter,
+        Mark</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>mark.bitter@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"dataset.author69922\">\n<individualName>\n<gco:CharacterString>Feuerle,
+        Thomas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>t.feuerle@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"dataset.author69923\">\n<individualName>\n<gco:CharacterString>Schulz,
+        Helmut</gco:CharacterString>\n</individualName>\n<role>\n<CI_RoleCode codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"dataset.author69924\">\n<individualName>\n<gco:CharacterString>Rausch,
+        Thomas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>thomas.rausch@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"dataset.author69925\">\n<individualName>\n<gco:CharacterString>Platis,
+        Andreas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>andreas.platis@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-9276-3587</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"dataset.author69926\">\n<individualName>\n<gco:CharacterString>Bange,
+        Jens</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>jens.bange@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-4075-1573</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"dataset.author32784\">\n<individualName>\n<gco:CharacterString>Lampert,
+        Astrid</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>astrid.lampert@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-1414-1616</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty>\n<organisationName>\n<gco:CharacterString>PANGAEA</gco:CharacterString>\n</organisationName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>info@pangaea.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://www.pangaea.de/</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"publisher\">publisher</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<presentationForm>\n<CI_PresentationFormCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode\"
+        codeListValue=\"tableDigital\">tableDigital</CI_PresentationFormCode>\n</presentationForm>\n</CI_Citation>\n</citation>\n<abstract>\n<gco:CharacterString>Offshore
+        wind parks interact with the marine atmospheric boundary layer and can create
+        long downstream wakes of reduced wind speed and changed turbulence. During
+        the project WIPAFF (wind park far field) funded by the German Federal Ministry
+        for Economic Affairs and Energy (grant number 0325783B), 41 measurement flights
+        were performed with the research aircraft Dornier-128 of TU Braunschweig between
+        September 2016 and October 2017. The aircraft recorded in-situ meteorological
+        parameters (wind vector, temperature, humidity) and sea surface properties
+        (temperature, elevation standard deviation)\nThe flights comprise vertical
+        soundings and straight legs upstream, downstream and above wind parks for
+        different synoptic conditions.</gco:CharacterString>\n</abstract>\n<status>\n<MD_ProgressCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode\"
+        codeListValue=\"completed\">completed</MD_ProgressCode>\n</status>\n<descriptiveKeywords>\n<MD_Keywords>\n<keyword>\n<gco:CharacterString>airborne
+        measurements</gco:CharacterString>\n</keyword>\n<keyword>\n<gco:CharacterString>German
+        Bight</gco:CharacterString>\n</keyword>\n<keyword>\n<gco:CharacterString>meteorological
+        parameters</gco:CharacterString>\n</keyword>\n<keyword>\n<gco:CharacterString>offshore
+        wind park</gco:CharacterString>\n</keyword>\n<keyword>\n<gco:CharacterString>sea
+        surface</gco:CharacterString>\n</keyword>\n<keyword>\n<gco:CharacterString>wake</gco:CharacterString>\n</keyword>\n<type>\n<MD_KeywordTypeCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode\"
+        codeListValue=\"theme\">theme</MD_KeywordTypeCode>\n</type>\n<thesaurusName>\n<CI_Citation>\n<title>\n<gco:CharacterString>PANGAEA
+        Keyword List</gco:CharacterString>\n</title>\n<date>\n<CI_Date>\n<date>\n<gco:Date>1995-01-01</gco:Date>\n</date>\n<dateType>\n<CI_DateTypeCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode\"
+        codeListValue=\"creation\">creation</CI_DateTypeCode>\n</dateType>\n</CI_Date>\n</date>\n<citedResponsibleParty>\n<CI_ResponsibleParty>\n<organisationName>\n<gco:CharacterString>PANGAEA</gco:CharacterString>\n</organisationName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>info@pangaea.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://www.pangaea.de/</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"pointOfContact\">pointOfContact</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n</CI_Citation>\n</thesaurusName>\n</MD_Keywords>\n</descriptiveKeywords>\n<descriptiveKeywords>\n<MD_Keywords>\n<keyword>\n<gco:CharacterString>WIPAFF</gco:CharacterString>\n</keyword>\n<keyword>\n<gco:CharacterString>Wind
+        Park Far Field</gco:CharacterString>\n</keyword>\n<type>\n<MD_KeywordTypeCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode\"
+        codeListValue=\"theme\">theme</MD_KeywordTypeCode>\n</type>\n<thesaurusName>\n<CI_Citation>\n<title>\n<gco:CharacterString>PANGAEA
+        Project List</gco:CharacterString>\n</title>\n<date>\n<CI_Date>\n<date>\n<gco:Date>1995-01-01</gco:Date>\n</date>\n<dateType>\n<CI_DateTypeCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode\"
+        codeListValue=\"creation\">creation</CI_DateTypeCode>\n</dateType>\n</CI_Date>\n</date>\n<citedResponsibleParty>\n<CI_ResponsibleParty>\n<organisationName>\n<gco:CharacterString>PANGAEA</gco:CharacterString>\n</organisationName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>info@pangaea.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://www.pangaea.de/</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"pointOfContact\">pointOfContact</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n</CI_Citation>\n</thesaurusName>\n</MD_Keywords>\n</descriptiveKeywords>\n<resourceConstraints>\n<MD_LegalConstraints>\n<accessConstraints>\n<MD_RestrictionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode\"
+        codeListValue=\"copyright\">copyright</MD_RestrictionCode>\n</accessConstraints>\n<useConstraints>\n<MD_RestrictionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode\"
+        codeListValue=\"copyright\">copyright</MD_RestrictionCode>\n</useConstraints>\n<otherConstraints>\n<gco:CharacterString>CC-BY-4.0:
+        Creative Commons Attribution 4.0 International</gco:CharacterString>\n</otherConstraints>\n</MD_LegalConstraints>\n</resourceConstraints>\n<spatialRepresentationType>\n<MD_SpatialRepresentationTypeCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode\"
+        codeListValue=\"textTable\">textTable</MD_SpatialRepresentationTypeCode>\n</spatialRepresentationType>\n<language>\n<LanguageCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#LanguageCode\"
+        codeListValue=\"eng\">eng</LanguageCode>\n</language>\n<topicCategory>\n<MD_TopicCategoryCode>geoscientificInformation</MD_TopicCategoryCode>\n</topicCategory>\n<extent>\n<EX_Extent>\n<geographicElement>\n<EX_GeographicBoundingBox>\n<gmd:westBoundLongitude>\n<gco:Decimal>6.516988</gco:Decimal>\n</gmd:westBoundLongitude>\n<gmd:eastBoundLongitude>\n<gco:Decimal>9.158623</gco:Decimal>\n</gmd:eastBoundLongitude>\n<gmd:southBoundLatitude>\n<gco:Decimal>53.452294</gco:Decimal>\n</gmd:southBoundLatitude>\n<gmd:northBoundLatitude>\n<gco:Decimal>54.993339</gco:Decimal>\n</gmd:northBoundLatitude>\n</EX_GeographicBoundingBox>\n</geographicElement>\n<temporalElement>\n<EX_TemporalExtent>\n<extent>\n<gml:TimePeriod
+        gml:id=\"timePeriod\">\n<gml:beginPosition>2016-09-06T12:13:11</gml:beginPosition>\n<gml:endPosition>2017-10-15T15:51:13</gml:endPosition>\n</gml:TimePeriod>\n</extent>\n</EX_TemporalExtent>\n</temporalElement>\n</EX_Extent>\n</extent>\n</MD_DataIdentification>\n</identificationInfo>\n<distributionInfo>\n<MD_Distribution>\n<distributionFormat>\n<MD_Format>\n<name>\n<gco:CharacterString>application/zip</gco:CharacterString>\n</name>\n<version>\n<gco:CharacterString>unknown</gco:CharacterString>\n</version>\n</MD_Format>\n</distributionFormat>\n<transferOptions>\n<MD_DigitalTransferOptions>\n<onLine>\n<CI_OnlineResource>\n<linkage>\n<URL>https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"download\">download</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onLine>\n</MD_DigitalTransferOptions>\n</transferOptions>\n</MD_Distribution>\n</distributionInfo>\n<dataQualityInfo>\n<DQ_DataQuality>\n<scope>\n<DQ_Scope>\n<level>\n<MD_ScopeCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode\"
+        codeListValue=\"dataset\">dataset</MD_ScopeCode>\n</level>\n</DQ_Scope>\n</scope>\n<lineage>\n<LI_Lineage>\n<statement>\n<gco:CharacterString>The
+        data set was checked for completeness, correctness, and consistency of metainformation.
+        Validity of used methods was checked and - if applicable - precision and range
+        of data.</gco:CharacterString>\n</statement>\n<source>\n<LI_Source id=\"ref100073\">\n<description>\n<gco:CharacterString>Related
+        to</gco:CharacterString>\n</description>\n<sourceCitation>\n<CI_Citation>\n<title>\n<gco:CharacterString>First
+        in situ evidence of wakes in the far field behind offshore wind farms</gco:CharacterString>\n</title>\n<date>\n<CI_Date>\n<date>\n<gco:Date>2018-01-01</gco:Date>\n</date>\n<dateType>\n<CI_DateTypeCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode\"
+        codeListValue=\"publication\">publication</CI_DateTypeCode>\n</dateType>\n</CI_Date>\n</date>\n<identifier>\n<MD_Identifier>\n<code>\n<gco:CharacterString>https://doi.org/10.1038/s41598-018-20389-y</gco:CharacterString>\n</code>\n</MD_Identifier>\n</identifier>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100073.author69925\">\n<individualName>\n<gco:CharacterString>Platis,
+        Andreas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>andreas.platis@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-9276-3587</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100073.author69927\">\n<individualName>\n<gco:CharacterString>Siedersleben,
+        Simon K</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-8467-1471</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100073.author69926\">\n<individualName>\n<gco:CharacterString>Bange,
+        Jens</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>jens.bange@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-4075-1573</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100073.author32784\">\n<individualName>\n<gco:CharacterString>Lampert,
+        Astrid</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>astrid.lampert@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-1414-1616</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100073.author69919\">\n<individualName>\n<gco:CharacterString>B\xE4rfuss,
+        Konrad</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>k.baerfuss@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-5130-5494</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100073.author69920\">\n<individualName>\n<gco:CharacterString>Hankers,
+        Rudolf</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>r.hankers@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100073.author69928\">\n<individualName>\n<gco:CharacterString>Ca\xF1adillas,
+        Beatriz</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>b.canadillas@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-2004-0336</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100073.author69929\">\n<individualName>\n<gco:CharacterString>Foreman,
+        Richard</gco:CharacterString>\n</individualName>\n<role>\n<CI_RoleCode codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100073.author61851\">\n<individualName>\n<gco:CharacterString>Schulz-Stellenfleth,
+        Johannes</gco:CharacterString>\n</individualName>\n<role>\n<CI_RoleCode codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100073.author69930\">\n<individualName>\n<gco:CharacterString>Djath,
+        Bughsin</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-1121-5272</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100073.author22721\">\n<individualName>\n<gco:CharacterString>Neumann,
+        Thomas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>thomas.neumann@io-warnemuende.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100073.author70090\">\n<individualName>\n<gco:CharacterString>Emeis,
+        Stefan</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-6114-6212</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<presentationForm>\n<CI_PresentationFormCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode\"
+        codeListValue=\"documentDigital\">documentDigital</CI_PresentationFormCode>\n</presentationForm>\n<series>\n<CI_Series>\n<name>\n<gco:CharacterString>Scientific
+        Reports</gco:CharacterString>\n</name>\n<issueIdentification>\n<gco:CharacterString>8(1)</gco:CharacterString>\n</issueIdentification>\n</CI_Series>\n</series>\n</CI_Citation>\n</sourceCitation>\n</LI_Source>\n</source>\n<source>\n<LI_Source
+        id=\"ref100074\">\n<description>\n<gco:CharacterString>Related to</gco:CharacterString>\n</description>\n<sourceCitation>\n<CI_Citation>\n<title>\n<gco:CharacterString>Micrometeorological
+        impacts of offshore wind farms as seen in observations and simulations</gco:CharacterString>\n</title>\n<date>\n<CI_Date>\n<date>\n<gco:Date>2018-01-01</gco:Date>\n</date>\n<dateType>\n<CI_DateTypeCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode\"
+        codeListValue=\"publication\">publication</CI_DateTypeCode>\n</dateType>\n</CI_Date>\n</date>\n<identifier>\n<MD_Identifier>\n<code>\n<gco:CharacterString>https://doi.org/10.1088/1748-9326/aaea0b</gco:CharacterString>\n</code>\n</MD_Identifier>\n</identifier>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100074.author69927\">\n<individualName>\n<gco:CharacterString>Siedersleben,
+        Simon K</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-8467-1471</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100074.author69931\">\n<individualName>\n<gco:CharacterString>Lundquist,
+        Julie K</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-5490-2702</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100074.author69925\">\n<individualName>\n<gco:CharacterString>Platis,
+        Andreas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>andreas.platis@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-9276-3587</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100074.author69926\">\n<individualName>\n<gco:CharacterString>Bange,
+        Jens</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>jens.bange@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-4075-1573</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100074.author69919\">\n<individualName>\n<gco:CharacterString>B\xE4rfuss,
+        Konrad</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>k.baerfuss@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-5130-5494</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100074.author32784\">\n<individualName>\n<gco:CharacterString>Lampert,
+        Astrid</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>astrid.lampert@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-1414-1616</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100074.author69928\">\n<individualName>\n<gco:CharacterString>Ca\xF1adillas,
+        Beatriz</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>b.canadillas@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-2004-0336</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100074.author22721\">\n<individualName>\n<gco:CharacterString>Neumann,
+        Thomas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>thomas.neumann@io-warnemuende.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100074.author70090\">\n<individualName>\n<gco:CharacterString>Emeis,
+        Stefan</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-6114-6212</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<presentationForm>\n<CI_PresentationFormCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode\"
+        codeListValue=\"documentDigital\">documentDigital</CI_PresentationFormCode>\n</presentationForm>\n<series>\n<CI_Series>\n<name>\n<gco:CharacterString>Environmental
+        Research Letters</gco:CharacterString>\n</name>\n<issueIdentification>\n<gco:CharacterString>13(12)</gco:CharacterString>\n</issueIdentification>\n<page>\n<gco:CharacterString>124012</gco:CharacterString>\n</page>\n</CI_Series>\n</series>\n</CI_Citation>\n</sourceCitation>\n</LI_Source>\n</source>\n<source>\n<LI_Source
+        id=\"ref100075\">\n<description>\n<gco:CharacterString>Related to</gco:CharacterString>\n</description>\n<sourceCitation>\n<CI_Citation>\n<title>\n<gco:CharacterString>Evaluation
+        of a Wind Farm Parametrization for Mesoscale Atmospheric Flow Models with
+        Aircraft Measurements</gco:CharacterString>\n</title>\n<date>\n<CI_Date>\n<date>\n<gco:Date>2018-01-01</gco:Date>\n</date>\n<dateType>\n<CI_DateTypeCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode\"
+        codeListValue=\"publication\">publication</CI_DateTypeCode>\n</dateType>\n</CI_Date>\n</date>\n<identifier>\n<MD_Identifier>\n<code>\n<gco:CharacterString>https://doi.org/10.1127/metz/2018/0900</gco:CharacterString>\n</code>\n</MD_Identifier>\n</identifier>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100075.author69927\">\n<individualName>\n<gco:CharacterString>Siedersleben,
+        Simon K</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-8467-1471</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100075.author69925\">\n<individualName>\n<gco:CharacterString>Platis,
+        Andreas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>andreas.platis@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-9276-3587</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100075.author69931\">\n<individualName>\n<gco:CharacterString>Lundquist,
+        Julie K</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-5490-2702</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100075.author32784\">\n<individualName>\n<gco:CharacterString>Lampert,
+        Astrid</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>astrid.lampert@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-1414-1616</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100075.author69919\">\n<individualName>\n<gco:CharacterString>B\xE4rfuss,
+        Konrad</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>k.baerfuss@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-5130-5494</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100075.author69928\">\n<individualName>\n<gco:CharacterString>Ca\xF1adillas,
+        Beatriz</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>b.canadillas@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-2004-0336</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100075.author69930\">\n<individualName>\n<gco:CharacterString>Djath,
+        Bughsin</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-1121-5272</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100075.author61851\">\n<individualName>\n<gco:CharacterString>Schulz-Stellenfleth,
+        Johannes</gco:CharacterString>\n</individualName>\n<role>\n<CI_RoleCode codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100075.author69926\">\n<individualName>\n<gco:CharacterString>Bange,
+        Jens</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>jens.bange@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-4075-1573</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100075.author22721\">\n<individualName>\n<gco:CharacterString>Neumann,
+        Thomas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>thomas.neumann@io-warnemuende.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
+        id=\"ref100075.author70090\">\n<individualName>\n<gco:CharacterString>Emeis,
+        Stefan</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-6114-6212</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
+        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
+        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<presentationForm>\n<CI_PresentationFormCode
+        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode\"
+        codeListValue=\"documentDigital\">documentDigital</CI_PresentationFormCode>\n</presentationForm>\n<series>\n<CI_Series>\n<name>\n<gco:CharacterString>Meteorologische
+        Zeitschrift</gco:CharacterString>\n</name>\n<issueIdentification>\n<gco:CharacterString>27(5)</gco:CharacterString>\n</issueIdentification>\n<page>\n<gco:CharacterString>401-415</gco:CharacterString>\n</page>\n</CI_Series>\n</series>\n</CI_Citation>\n</sourceCitation>\n</LI_Source>\n</source>\n</LI_Lineage>\n</lineage>\n</DQ_DataQuality>\n</dataQualityInfo>\n</MD_Metadata>\n"
     headers:
       Alt-Svc:
       - h3=":443"; ma=2592000
@@ -3098,11 +3371,11 @@ interactions:
       Connection:
       - close
       Content-Disposition:
-      - inline; filename=Baerfuss-etal_2019.datacite.xml
+      - inline; filename=Baerfuss-etal_2019.iso19139.xml
       Content-Type:
-      - application/vnd.datacite.datacite+xml; charset=UTF-8
+      - application/vnd.iso19139.metadata+xml; charset=UTF-8
       Date:
-      - Thu, 31 Aug 2023 15:25:06 GMT
+      - Fri, 01 Sep 2023 05:46:36 GMT
       Link:
       - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845>;rel="describes",
         <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip>;rel="item";type="application/zip",
@@ -3111,7 +3384,7 @@ interactions:
       Server:
       - nginx/1.25.2
       Set-Cookie:
-      - pansessid=7879c649076c693986bfba11ba8a2f2e; Path=/; Domain=.pangaea.de; Secure;
+      - pansessid=414e6b0098fffae28b905b8ff97bc1b9; Path=/; Domain=.pangaea.de; Secure;
         HttpOnly
       Strict-Transport-Security:
       - max-age=31536000
@@ -3120,7 +3393,7 @@ interactions:
       Vary:
       - Origin, Cookie, Authorization, Accept
       X-CID:
-      - 7879c649076c693986bfba11ba8a2f2e
+      - 414e6b0098fffae28b905b8ff97bc1b9
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -3298,7 +3571,7 @@ interactions:
       Content-Type:
       - application/vnd.pangaea.metadata+xml; charset=UTF-8
       Date:
-      - Thu, 31 Aug 2023 15:25:06 GMT
+      - Fri, 01 Sep 2023 05:46:37 GMT
       Link:
       - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845>;rel="describes",
         <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip>;rel="item";type="application/zip",
@@ -3307,7 +3580,7 @@ interactions:
       Server:
       - nginx/1.25.2
       Set-Cookie:
-      - pansessid=d5355380ff6b16d83acddcb5bc416327; Path=/; Domain=.pangaea.de; Secure;
+      - pansessid=a0475eede9a897aa811f032d09db2de4; Path=/; Domain=.pangaea.de; Secure;
         HttpOnly
       Strict-Transport-Security:
       - max-age=31536000
@@ -3316,7 +3589,7 @@ interactions:
       Vary:
       - Origin, Cookie, Authorization, Accept
       X-CID:
-      - d5355380ff6b16d83acddcb5bc416327
+      - a0475eede9a897aa811f032d09db2de4
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -3404,7 +3677,7 @@ interactions:
       Content-Type:
       - application/vnd.nasa.dif-metadata+xml; charset=UTF-8
       Date:
-      - Thu, 31 Aug 2023 15:25:06 GMT
+      - Fri, 01 Sep 2023 05:46:37 GMT
       Link:
       - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845>;rel="describes",
         <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip>;rel="item";type="application/zip",
@@ -3413,7 +3686,7 @@ interactions:
       Server:
       - nginx/1.25.2
       Set-Cookie:
-      - pansessid=bd340c5375598be7b8054413381d9f5c; Path=/; Domain=.pangaea.de; Secure;
+      - pansessid=2a8ef9f255dbc46f812ccc96a669a0e3; Path=/; Domain=.pangaea.de; Secure;
         HttpOnly
       Strict-Transport-Security:
       - max-age=31536000
@@ -3422,7 +3695,108 @@ interactions:
       Vary:
       - Origin, Cookie, Authorization, Accept
       X-CID:
-      - bd340c5375598be7b8054413381d9f5c
+      - 2a8ef9f255dbc46f812ccc96a669a0e3
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Robots-Tag:
+      - noindex,nofollow,archive
+      X-UA-Compatible:
+      - IE=Edge
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/vnd.datacite.datacite+xml,application/xml, text/xml;q=0.5
+      Connection:
+      - close
+      Host:
+      - doi.pangaea.de
+      User-Agent:
+      - F-UJI
+    method: GET
+    uri: https://doi.pangaea.de/10.1594/PANGAEA.902845?format=metadata_datacite4
+  response:
+    body:
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><resource xsi:schemaLocation=\"http://datacite.org/schema/kernel-4
+        http://schema.datacite.org/meta/kernel-4.3/metadata.xsd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+        xmlns=\"http://datacite.org/schema/kernel-4\"><identifier identifierType=\"DOI\">10.1594/PANGAEA.902845</identifier><creators><creator><creatorName>B\xE4rfuss,
+        Konrad</creatorName><givenName>Konrad</givenName><familyName>B\xE4rfuss</familyName><nameIdentifier
+        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0001-5130-5494</nameIdentifier></creator><creator><creatorName>Hankers,
+        Rudolf</creatorName><givenName>Rudolf</givenName><familyName>Hankers</familyName></creator><creator><creatorName>Bitter,
+        Mark</creatorName><givenName>Mark</givenName><familyName>Bitter</familyName></creator><creator><creatorName>Feuerle,
+        Thomas</creatorName><givenName>Thomas</givenName><familyName>Feuerle</familyName></creator><creator><creatorName>Schulz,
+        Helmut</creatorName><givenName>Helmut</givenName><familyName>Schulz</familyName></creator><creator><creatorName>Rausch,
+        Thomas</creatorName><givenName>Thomas</givenName><familyName>Rausch</familyName></creator><creator><creatorName>Platis,
+        Andreas</creatorName><givenName>Andreas</givenName><familyName>Platis</familyName><nameIdentifier
+        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0002-9276-3587</nameIdentifier></creator><creator><creatorName>Bange,
+        Jens</creatorName><givenName>Jens</givenName><familyName>Bange</familyName><nameIdentifier
+        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0003-4075-1573</nameIdentifier></creator><creator><creatorName>Lampert,
+        Astrid</creatorName><givenName>Astrid</givenName><familyName>Lampert</familyName><nameIdentifier
+        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0003-1414-1616</nameIdentifier></creator></creators><titles><title>In-situ
+        airborne measurements of atmospheric and sea surface parameters related to
+        offshore wind parks in the German Bight</title></titles><publisher>PANGAEA</publisher><publicationYear>2019</publicationYear><subjects><subject>airborne
+        measurements</subject><subject>German Bight</subject><subject>meteorological
+        parameters</subject><subject>offshore wind park</subject><subject>sea surface</subject><subject>wake</subject><subject
+        subjectScheme=\"Project\">Wind Park Far Field (WIPAFF)</subject></subjects><dates><date
+        dateType=\"Collected\">2016-09-06T12:13:11/2017-10-15T15:51:13</date></dates><language>en</language><resourceType
+        resourceTypeGeneral=\"Collection\">Publication Series of Datasets</resourceType><relatedIdentifiers><relatedIdentifier
+        relatedIdentifierType=\"DOI\" relationType=\"References\">10.1038/s41598-018-20389-y</relatedIdentifier><relatedIdentifier
+        relatedIdentifierType=\"DOI\" relationType=\"References\">10.1088/1748-9326/aaea0b</relatedIdentifier><relatedIdentifier
+        relatedIdentifierType=\"DOI\" relationType=\"References\">10.1127/metz/2018/0900</relatedIdentifier></relatedIdentifiers><sizes><size>41
+        datasets</size></sizes><formats><format>application/zip</format></formats><rightsList><rights
+        rightsURI=\"https://creativecommons.org/licenses/by/4.0/\" schemeURI=\"https://spdx.org/licenses/\"
+        rightsIdentifierScheme=\"SPDX\" rightsIdentifier=\"CC-BY-4.0\">Creative Commons
+        Attribution 4.0 International</rights></rightsList><descriptions><description
+        descriptionType=\"Abstract\">Offshore wind parks interact with the marine
+        atmospheric boundary layer and can create long downstream wakes of reduced
+        wind speed and changed turbulence. During the project WIPAFF (wind park far
+        field) funded by the German Federal Ministry for Economic Affairs and Energy
+        (grant number 0325783B), 41 measurement flights were performed with the research
+        aircraft Dornier-128 of TU Braunschweig between September 2016 and October
+        2017. The aircraft recorded in-situ meteorological parameters (wind vector,
+        temperature, humidity) and sea surface properties (temperature, elevation
+        standard deviation)<br/>The flights comprise vertical soundings and straight
+        legs upstream, downstream and above wind parks for different synoptic conditions.</description></descriptions><geoLocations><geoLocation><geoLocationBox><westBoundLongitude>6.516988</westBoundLongitude><eastBoundLongitude>9.158623</eastBoundLongitude><southBoundLatitude>53.452294</southBoundLatitude><northBoundLatitude>54.993339</northBoundLatitude></geoLocationBox></geoLocation></geoLocations><fundingReferences><fundingReference><funderName>Federal
+        Ministry for Economic Affairs and Energy</funderName><funderIdentifier funderIdentifierType=\"Crossref
+        Funder ID\">https://doi.org/10.13039/501100006360</funderIdentifier><awardNumber
+        awardURI=\"https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&amp;fkz=0325783B\">0325783B</awardNumber><awardTitle>Wind
+        Park Far Field / Wind Plant Far Field</awardTitle></fundingReference></fundingReferences></resource>"
+    headers:
+      Alt-Svc:
+      - h3=":443"; ma=2592000
+      Cache-Control:
+      - public
+      Connection:
+      - close
+      Content-Disposition:
+      - inline; filename=Baerfuss-etal_2019.datacite.xml
+      Content-Type:
+      - application/vnd.datacite.datacite+xml; charset=UTF-8
+      Date:
+      - Fri, 01 Sep 2023 05:46:37 GMT
+      Link:
+      - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845>;rel="describes",
+        <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip>;rel="item";type="application/zip",
+        <https://orcid.org/0000-0001-5130-5494>;rel="author", <https://orcid.org/0000-0002-9276-3587>;rel="author",
+        <https://orcid.org/0000-0003-4075-1573>;rel="author", <https://orcid.org/0000-0003-1414-1616>;rel="author"
+      Server:
+      - nginx/1.25.2
+      Set-Cookie:
+      - pansessid=d1eb9b4e2b2454a5c4d7d33464ca84da; Path=/; Domain=.pangaea.de; Secure;
+        HttpOnly
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin, Cookie, Authorization, Accept
+      X-CID:
+      - d1eb9b4e2b2454a5c4d7d33464ca84da
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -3510,7 +3884,7 @@ interactions:
       Content-Type:
       - application/vnd.nasa.dif-metadata+xml; charset=UTF-8
       Date:
-      - Thu, 31 Aug 2023 15:25:06 GMT
+      - Fri, 01 Sep 2023 05:46:38 GMT
       Link:
       - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845>;rel="describes",
         <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip>;rel="item";type="application/zip",
@@ -3519,7 +3893,7 @@ interactions:
       Server:
       - nginx/1.25.2
       Set-Cookie:
-      - pansessid=3958914f2676ad22df98334d41a06168; Path=/; Domain=.pangaea.de; Secure;
+      - pansessid=e9c11887bdb7b613482139240f3611c0; Path=/; Domain=.pangaea.de; Secure;
         HttpOnly
       Strict-Transport-Security:
       - max-age=31536000
@@ -3528,7 +3902,108 @@ interactions:
       Vary:
       - Origin, Cookie, Authorization, Accept
       X-CID:
-      - 3958914f2676ad22df98334d41a06168
+      - e9c11887bdb7b613482139240f3611c0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Robots-Tag:
+      - noindex,nofollow,archive
+      X-UA-Compatible:
+      - IE=Edge
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/vnd.datacite.datacite+xml,application/xml, text/xml;q=0.5
+      Connection:
+      - close
+      Host:
+      - doi.pangaea.de
+      User-Agent:
+      - F-UJI
+    method: GET
+    uri: https://doi.pangaea.de/10.1594/PANGAEA.902845?format=metadata_datacite4
+  response:
+    body:
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><resource xsi:schemaLocation=\"http://datacite.org/schema/kernel-4
+        http://schema.datacite.org/meta/kernel-4.3/metadata.xsd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+        xmlns=\"http://datacite.org/schema/kernel-4\"><identifier identifierType=\"DOI\">10.1594/PANGAEA.902845</identifier><creators><creator><creatorName>B\xE4rfuss,
+        Konrad</creatorName><givenName>Konrad</givenName><familyName>B\xE4rfuss</familyName><nameIdentifier
+        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0001-5130-5494</nameIdentifier></creator><creator><creatorName>Hankers,
+        Rudolf</creatorName><givenName>Rudolf</givenName><familyName>Hankers</familyName></creator><creator><creatorName>Bitter,
+        Mark</creatorName><givenName>Mark</givenName><familyName>Bitter</familyName></creator><creator><creatorName>Feuerle,
+        Thomas</creatorName><givenName>Thomas</givenName><familyName>Feuerle</familyName></creator><creator><creatorName>Schulz,
+        Helmut</creatorName><givenName>Helmut</givenName><familyName>Schulz</familyName></creator><creator><creatorName>Rausch,
+        Thomas</creatorName><givenName>Thomas</givenName><familyName>Rausch</familyName></creator><creator><creatorName>Platis,
+        Andreas</creatorName><givenName>Andreas</givenName><familyName>Platis</familyName><nameIdentifier
+        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0002-9276-3587</nameIdentifier></creator><creator><creatorName>Bange,
+        Jens</creatorName><givenName>Jens</givenName><familyName>Bange</familyName><nameIdentifier
+        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0003-4075-1573</nameIdentifier></creator><creator><creatorName>Lampert,
+        Astrid</creatorName><givenName>Astrid</givenName><familyName>Lampert</familyName><nameIdentifier
+        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0003-1414-1616</nameIdentifier></creator></creators><titles><title>In-situ
+        airborne measurements of atmospheric and sea surface parameters related to
+        offshore wind parks in the German Bight</title></titles><publisher>PANGAEA</publisher><publicationYear>2019</publicationYear><subjects><subject>airborne
+        measurements</subject><subject>German Bight</subject><subject>meteorological
+        parameters</subject><subject>offshore wind park</subject><subject>sea surface</subject><subject>wake</subject><subject
+        subjectScheme=\"Project\">Wind Park Far Field (WIPAFF)</subject></subjects><dates><date
+        dateType=\"Collected\">2016-09-06T12:13:11/2017-10-15T15:51:13</date></dates><language>en</language><resourceType
+        resourceTypeGeneral=\"Collection\">Publication Series of Datasets</resourceType><relatedIdentifiers><relatedIdentifier
+        relatedIdentifierType=\"DOI\" relationType=\"References\">10.1038/s41598-018-20389-y</relatedIdentifier><relatedIdentifier
+        relatedIdentifierType=\"DOI\" relationType=\"References\">10.1088/1748-9326/aaea0b</relatedIdentifier><relatedIdentifier
+        relatedIdentifierType=\"DOI\" relationType=\"References\">10.1127/metz/2018/0900</relatedIdentifier></relatedIdentifiers><sizes><size>41
+        datasets</size></sizes><formats><format>application/zip</format></formats><rightsList><rights
+        rightsURI=\"https://creativecommons.org/licenses/by/4.0/\" schemeURI=\"https://spdx.org/licenses/\"
+        rightsIdentifierScheme=\"SPDX\" rightsIdentifier=\"CC-BY-4.0\">Creative Commons
+        Attribution 4.0 International</rights></rightsList><descriptions><description
+        descriptionType=\"Abstract\">Offshore wind parks interact with the marine
+        atmospheric boundary layer and can create long downstream wakes of reduced
+        wind speed and changed turbulence. During the project WIPAFF (wind park far
+        field) funded by the German Federal Ministry for Economic Affairs and Energy
+        (grant number 0325783B), 41 measurement flights were performed with the research
+        aircraft Dornier-128 of TU Braunschweig between September 2016 and October
+        2017. The aircraft recorded in-situ meteorological parameters (wind vector,
+        temperature, humidity) and sea surface properties (temperature, elevation
+        standard deviation)<br/>The flights comprise vertical soundings and straight
+        legs upstream, downstream and above wind parks for different synoptic conditions.</description></descriptions><geoLocations><geoLocation><geoLocationBox><westBoundLongitude>6.516988</westBoundLongitude><eastBoundLongitude>9.158623</eastBoundLongitude><southBoundLatitude>53.452294</southBoundLatitude><northBoundLatitude>54.993339</northBoundLatitude></geoLocationBox></geoLocation></geoLocations><fundingReferences><fundingReference><funderName>Federal
+        Ministry for Economic Affairs and Energy</funderName><funderIdentifier funderIdentifierType=\"Crossref
+        Funder ID\">https://doi.org/10.13039/501100006360</funderIdentifier><awardNumber
+        awardURI=\"https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&amp;fkz=0325783B\">0325783B</awardNumber><awardTitle>Wind
+        Park Far Field / Wind Plant Far Field</awardTitle></fundingReference></fundingReferences></resource>"
+    headers:
+      Alt-Svc:
+      - h3=":443"; ma=2592000
+      Cache-Control:
+      - public
+      Connection:
+      - close
+      Content-Disposition:
+      - inline; filename=Baerfuss-etal_2019.datacite.xml
+      Content-Type:
+      - application/vnd.datacite.datacite+xml; charset=UTF-8
+      Date:
+      - Fri, 01 Sep 2023 05:46:38 GMT
+      Link:
+      - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845>;rel="describes",
+        <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip>;rel="item";type="application/zip",
+        <https://orcid.org/0000-0001-5130-5494>;rel="author", <https://orcid.org/0000-0002-9276-3587>;rel="author",
+        <https://orcid.org/0000-0003-4075-1573>;rel="author", <https://orcid.org/0000-0003-1414-1616>;rel="author"
+      Server:
+      - nginx/1.25.2
+      Set-Cookie:
+      - pansessid=8b40feb2e3a616feee76fc7df870822b; Path=/; Domain=.pangaea.de; Secure;
+        HttpOnly
+      Strict-Transport-Security:
+      - max-age=31536000
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin, Cookie, Authorization, Accept
+      X-CID:
+      - 8b40feb2e3a616feee76fc7df870822b
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -3644,7 +4119,7 @@ interactions:
       Content-Type:
       - application/ld+json; charset=UTF-8
       Date:
-      - Thu, 31 Aug 2023 15:25:06 GMT
+      - Fri, 01 Sep 2023 05:46:38 GMT
       Link:
       - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845>;rel="describes",
         <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip>;rel="item";type="application/zip",
@@ -3653,7 +4128,7 @@ interactions:
       Server:
       - nginx/1.25.2
       Set-Cookie:
-      - pansessid=8da0172cafce067241908a335525e198; Path=/; Domain=.pangaea.de; Secure;
+      - pansessid=a345184216c45d825917e35558327868; Path=/; Domain=.pangaea.de; Secure;
         HttpOnly
       Strict-Transport-Security:
       - max-age=31536000
@@ -3662,139 +4137,7 @@ interactions:
       Vary:
       - Origin, Cookie, Authorization, Accept
       X-CID:
-      - 8da0172cafce067241908a335525e198
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-UA-Compatible:
-      - IE=Edge
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - text/turtle, application/turtle, application/x-turtle;q=0.8, application/rdf+xml,
-        text/n3;q=0.9, text/rdf+n3;q=0.9,application/ld+json
-      Connection:
-      - close
-      Host:
-      - doi.pangaea.de
-      User-Agent:
-      - F-UJI
-    method: GET
-    uri: https://doi.pangaea.de/10.1594/PANGAEA.902845?format=metadata_jsonld
-  response:
-    body:
-      string: "{\"@context\":\"http://schema.org/\",\"@id\":\"https://doi.org/10.1594/PANGAEA.902845\",\"@type\":\"Dataset\",\"identifier\":\"https://doi.org/10.1594/PANGAEA.902845\",\"url\":\"https://doi.pangaea.de/10.1594/PANGAEA.902845\",\"creator\":[{\"@id\":\"https://orcid.org/0000-0001-5130-5494\",\"@type\":\"Person\",\"name\":\"Konrad
-        B\xE4rfuss\",\"familyName\":\"B\xE4rfuss\",\"givenName\":\"Konrad\",\"identifier\":\"https://orcid.org/0000-0001-5130-5494\",\"email\":\"k.baerfuss@tu-bs.de\"},{\"@type\":\"Person\",\"name\":\"Rudolf
-        Hankers\",\"familyName\":\"Hankers\",\"givenName\":\"Rudolf\",\"email\":\"r.hankers@tu-bs.de\"},{\"@type\":\"Person\",\"name\":\"Mark
-        Bitter\",\"familyName\":\"Bitter\",\"givenName\":\"Mark\",\"email\":\"mark.bitter@tu-bs.de\"},{\"@type\":\"Person\",\"name\":\"Thomas
-        Feuerle\",\"familyName\":\"Feuerle\",\"givenName\":\"Thomas\",\"email\":\"t.feuerle@tu-bs.de\"},{\"@type\":\"Person\",\"name\":\"Helmut
-        Schulz\",\"familyName\":\"Schulz\",\"givenName\":\"Helmut\"},{\"@type\":\"Person\",\"name\":\"Thomas
-        Rausch\",\"familyName\":\"Rausch\",\"givenName\":\"Thomas\",\"email\":\"thomas.rausch@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0002-9276-3587\",\"@type\":\"Person\",\"name\":\"Andreas
-        Platis\",\"familyName\":\"Platis\",\"givenName\":\"Andreas\",\"identifier\":\"https://orcid.org/0000-0002-9276-3587\",\"email\":\"andreas.platis@uni-tuebingen.de\"},{\"@id\":\"https://orcid.org/0000-0003-4075-1573\",\"@type\":\"Person\",\"name\":\"Jens
-        Bange\",\"familyName\":\"Bange\",\"givenName\":\"Jens\",\"identifier\":\"https://orcid.org/0000-0003-4075-1573\",\"email\":\"jens.bange@uni-tuebingen.de\"},{\"@id\":\"https://orcid.org/0000-0003-1414-1616\",\"@type\":\"Person\",\"name\":\"Astrid
-        Lampert\",\"familyName\":\"Lampert\",\"givenName\":\"Astrid\",\"identifier\":\"https://orcid.org/0000-0003-1414-1616\",\"url\":\"https://www.tu-braunschweig.de/ilr/dasinstitut/mitarbeiter/ehemaligemitarbeiter/astridlampert\",\"email\":\"astrid.lampert@tu-bs.de\"}],\"name\":\"In-situ
-        airborne measurements of atmospheric and sea surface parameters related to
-        offshore wind parks in the German Bight\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"PANGAEA\",\"disambiguatingDescription\":\"Data
-        Publisher for Earth & Environmental Science\",\"url\":\"https://www.pangaea.de/\"},\"includedInDataCatalog\":{\"@type\":\"DataCatalog\",\"name\":\"PANGAEA\",\"disambiguatingDescription\":\"Data
-        Publisher for Earth & Environmental Science\",\"url\":\"https://www.pangaea.de/\"},\"datePublished\":\"2019-06-21\",\"description\":\"Offshore
-        wind parks interact with the marine atmospheric boundary layer and can create
-        long downstream wakes of reduced wind speed and changed turbulence. During
-        the project WIPAFF (wind park far field) funded by the German Federal Ministry
-        for Economic Affairs and Energy (grant number 0325783B), 41 measurement flights
-        were performed with the research aircraft Dornier-128 of TU Braunschweig between
-        September 2016 and October 2017. The aircraft recorded in-situ meteorological
-        parameters (wind vector, temperature, humidity) and sea surface properties
-        (temperature, elevation standard deviation) [\u2026]\",\"abstract\":\"Offshore
-        wind parks interact with the marine atmospheric boundary layer and can create
-        long downstream wakes of reduced wind speed and changed turbulence. During
-        the project WIPAFF (wind park far field) funded by the German Federal Ministry
-        for Economic Affairs and Energy (grant number 0325783B), 41 measurement flights
-        were performed with the research aircraft Dornier-128 of TU Braunschweig between
-        September 2016 and October 2017. The aircraft recorded in-situ meteorological
-        parameters (wind vector, temperature, humidity) and sea surface properties
-        (temperature, elevation standard deviation)\\nThe flights comprise vertical
-        soundings and straight legs upstream, downstream and above wind parks for
-        different synoptic conditions.\",\"citation\":[{\"@id\":\"https://doi.org/10.1038/s41598-018-20389-y\",\"@type\":[\"CreativeWork\",\"PublicationIssue\"],\"identifier\":\"https://doi.org/10.1038/s41598-018-20389-y\",\"url\":\"https://doi.org/10.1038/s41598-018-20389-y\",\"creator\":[{\"@id\":\"https://orcid.org/0000-0002-9276-3587\",\"@type\":\"Person\",\"name\":\"Andreas
-        Platis\",\"familyName\":\"Platis\",\"givenName\":\"Andreas\",\"identifier\":\"https://orcid.org/0000-0002-9276-3587\",\"email\":\"andreas.platis@uni-tuebingen.de\"},{\"@id\":\"https://orcid.org/0000-0002-8467-1471\",\"@type\":\"Person\",\"name\":\"Simon
-        K Siedersleben\",\"familyName\":\"Siedersleben\",\"givenName\":\"Simon K\",\"identifier\":\"https://orcid.org/0000-0002-8467-1471\"},{\"@id\":\"https://orcid.org/0000-0003-4075-1573\",\"@type\":\"Person\",\"name\":\"Jens
-        Bange\",\"familyName\":\"Bange\",\"givenName\":\"Jens\",\"identifier\":\"https://orcid.org/0000-0003-4075-1573\",\"email\":\"jens.bange@uni-tuebingen.de\"},{\"@id\":\"https://orcid.org/0000-0003-1414-1616\",\"@type\":\"Person\",\"name\":\"Astrid
-        Lampert\",\"familyName\":\"Lampert\",\"givenName\":\"Astrid\",\"identifier\":\"https://orcid.org/0000-0003-1414-1616\",\"url\":\"https://www.tu-braunschweig.de/ilr/dasinstitut/mitarbeiter/ehemaligemitarbeiter/astridlampert\",\"email\":\"astrid.lampert@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0001-5130-5494\",\"@type\":\"Person\",\"name\":\"Konrad
-        B\xE4rfuss\",\"familyName\":\"B\xE4rfuss\",\"givenName\":\"Konrad\",\"identifier\":\"https://orcid.org/0000-0001-5130-5494\",\"email\":\"k.baerfuss@tu-bs.de\"},{\"@type\":\"Person\",\"name\":\"Rudolf
-        Hankers\",\"familyName\":\"Hankers\",\"givenName\":\"Rudolf\",\"email\":\"r.hankers@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0003-2004-0336\",\"@type\":\"Person\",\"name\":\"Beatriz
-        Ca\xF1adillas\",\"familyName\":\"Ca\xF1adillas\",\"givenName\":\"Beatriz\",\"identifier\":\"https://orcid.org/0000-0003-2004-0336\",\"email\":\"b.canadillas@tu-bs.de\"},{\"@type\":\"Person\",\"name\":\"Richard
-        Foreman\",\"familyName\":\"Foreman\",\"givenName\":\"Richard\"},{\"@type\":\"Person\",\"name\":\"Johannes
-        Schulz-Stellenfleth\",\"familyName\":\"Schulz-Stellenfleth\",\"givenName\":\"Johannes\"},{\"@id\":\"https://orcid.org/0000-0002-1121-5272\",\"@type\":\"Person\",\"name\":\"Bughsin
-        Djath\",\"familyName\":\"Djath\",\"givenName\":\"Bughsin\",\"identifier\":\"https://orcid.org/0000-0002-1121-5272\"},{\"@type\":\"Person\",\"name\":\"Thomas
-        Neumann\",\"familyName\":\"Neumann\",\"givenName\":\"Thomas\",\"email\":\"thomas.neumann@io-warnemuende.de\"},{\"@id\":\"https://orcid.org/0000-0001-6114-6212\",\"@type\":\"Person\",\"name\":\"Stefan
-        Emeis\",\"familyName\":\"Emeis\",\"givenName\":\"Stefan\",\"identifier\":\"https://orcid.org/0000-0001-6114-6212\"}],\"name\":\"First
-        in situ evidence of wakes in the far field behind offshore wind farms\",\"datePublished\":\"2018\",\"issueNumber\":\"8(1)\",\"isPartOf\":{\"@type\":\"CreativeWorkSeries\",\"name\":\"Scientific
-        Reports\"}},{\"@id\":\"https://doi.org/10.1088/1748-9326/aaea0b\",\"@type\":[\"CreativeWork\",\"PublicationIssue\"],\"identifier\":\"https://doi.org/10.1088/1748-9326/aaea0b\",\"url\":\"https://doi.org/10.1088/1748-9326/aaea0b\",\"creator\":[{\"@id\":\"https://orcid.org/0000-0002-8467-1471\",\"@type\":\"Person\",\"name\":\"Simon
-        K Siedersleben\",\"familyName\":\"Siedersleben\",\"givenName\":\"Simon K\",\"identifier\":\"https://orcid.org/0000-0002-8467-1471\"},{\"@id\":\"https://orcid.org/0000-0001-5490-2702\",\"@type\":\"Person\",\"name\":\"Julie
-        K Lundquist\",\"familyName\":\"Lundquist\",\"givenName\":\"Julie K\",\"identifier\":\"https://orcid.org/0000-0001-5490-2702\"},{\"@id\":\"https://orcid.org/0000-0002-9276-3587\",\"@type\":\"Person\",\"name\":\"Andreas
-        Platis\",\"familyName\":\"Platis\",\"givenName\":\"Andreas\",\"identifier\":\"https://orcid.org/0000-0002-9276-3587\",\"email\":\"andreas.platis@uni-tuebingen.de\"},{\"@id\":\"https://orcid.org/0000-0003-4075-1573\",\"@type\":\"Person\",\"name\":\"Jens
-        Bange\",\"familyName\":\"Bange\",\"givenName\":\"Jens\",\"identifier\":\"https://orcid.org/0000-0003-4075-1573\",\"email\":\"jens.bange@uni-tuebingen.de\"},{\"@id\":\"https://orcid.org/0000-0001-5130-5494\",\"@type\":\"Person\",\"name\":\"Konrad
-        B\xE4rfuss\",\"familyName\":\"B\xE4rfuss\",\"givenName\":\"Konrad\",\"identifier\":\"https://orcid.org/0000-0001-5130-5494\",\"email\":\"k.baerfuss@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0003-1414-1616\",\"@type\":\"Person\",\"name\":\"Astrid
-        Lampert\",\"familyName\":\"Lampert\",\"givenName\":\"Astrid\",\"identifier\":\"https://orcid.org/0000-0003-1414-1616\",\"url\":\"https://www.tu-braunschweig.de/ilr/dasinstitut/mitarbeiter/ehemaligemitarbeiter/astridlampert\",\"email\":\"astrid.lampert@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0003-2004-0336\",\"@type\":\"Person\",\"name\":\"Beatriz
-        Ca\xF1adillas\",\"familyName\":\"Ca\xF1adillas\",\"givenName\":\"Beatriz\",\"identifier\":\"https://orcid.org/0000-0003-2004-0336\",\"email\":\"b.canadillas@tu-bs.de\"},{\"@type\":\"Person\",\"name\":\"Thomas
-        Neumann\",\"familyName\":\"Neumann\",\"givenName\":\"Thomas\",\"email\":\"thomas.neumann@io-warnemuende.de\"},{\"@id\":\"https://orcid.org/0000-0001-6114-6212\",\"@type\":\"Person\",\"name\":\"Stefan
-        Emeis\",\"familyName\":\"Emeis\",\"givenName\":\"Stefan\",\"identifier\":\"https://orcid.org/0000-0001-6114-6212\"}],\"name\":\"Micrometeorological
-        impacts of offshore wind farms as seen in observations and simulations\",\"datePublished\":\"2018\",\"issueNumber\":\"13(12)\",\"pagination\":\"124012\",\"isPartOf\":{\"@type\":\"CreativeWorkSeries\",\"name\":\"Environmental
-        Research Letters\"}},{\"@id\":\"https://doi.org/10.1127/metz/2018/0900\",\"@type\":[\"CreativeWork\",\"PublicationIssue\"],\"identifier\":\"https://doi.org/10.1127/metz/2018/0900\",\"url\":\"https://doi.org/10.1127/metz/2018/0900\",\"creator\":[{\"@id\":\"https://orcid.org/0000-0002-8467-1471\",\"@type\":\"Person\",\"name\":\"Simon
-        K Siedersleben\",\"familyName\":\"Siedersleben\",\"givenName\":\"Simon K\",\"identifier\":\"https://orcid.org/0000-0002-8467-1471\"},{\"@id\":\"https://orcid.org/0000-0002-9276-3587\",\"@type\":\"Person\",\"name\":\"Andreas
-        Platis\",\"familyName\":\"Platis\",\"givenName\":\"Andreas\",\"identifier\":\"https://orcid.org/0000-0002-9276-3587\",\"email\":\"andreas.platis@uni-tuebingen.de\"},{\"@id\":\"https://orcid.org/0000-0001-5490-2702\",\"@type\":\"Person\",\"name\":\"Julie
-        K Lundquist\",\"familyName\":\"Lundquist\",\"givenName\":\"Julie K\",\"identifier\":\"https://orcid.org/0000-0001-5490-2702\"},{\"@id\":\"https://orcid.org/0000-0003-1414-1616\",\"@type\":\"Person\",\"name\":\"Astrid
-        Lampert\",\"familyName\":\"Lampert\",\"givenName\":\"Astrid\",\"identifier\":\"https://orcid.org/0000-0003-1414-1616\",\"url\":\"https://www.tu-braunschweig.de/ilr/dasinstitut/mitarbeiter/ehemaligemitarbeiter/astridlampert\",\"email\":\"astrid.lampert@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0001-5130-5494\",\"@type\":\"Person\",\"name\":\"Konrad
-        B\xE4rfuss\",\"familyName\":\"B\xE4rfuss\",\"givenName\":\"Konrad\",\"identifier\":\"https://orcid.org/0000-0001-5130-5494\",\"email\":\"k.baerfuss@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0003-2004-0336\",\"@type\":\"Person\",\"name\":\"Beatriz
-        Ca\xF1adillas\",\"familyName\":\"Ca\xF1adillas\",\"givenName\":\"Beatriz\",\"identifier\":\"https://orcid.org/0000-0003-2004-0336\",\"email\":\"b.canadillas@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0002-1121-5272\",\"@type\":\"Person\",\"name\":\"Bughsin
-        Djath\",\"familyName\":\"Djath\",\"givenName\":\"Bughsin\",\"identifier\":\"https://orcid.org/0000-0002-1121-5272\"},{\"@type\":\"Person\",\"name\":\"Johannes
-        Schulz-Stellenfleth\",\"familyName\":\"Schulz-Stellenfleth\",\"givenName\":\"Johannes\"},{\"@id\":\"https://orcid.org/0000-0003-4075-1573\",\"@type\":\"Person\",\"name\":\"Jens
-        Bange\",\"familyName\":\"Bange\",\"givenName\":\"Jens\",\"identifier\":\"https://orcid.org/0000-0003-4075-1573\",\"email\":\"jens.bange@uni-tuebingen.de\"},{\"@type\":\"Person\",\"name\":\"Thomas
-        Neumann\",\"familyName\":\"Neumann\",\"givenName\":\"Thomas\",\"email\":\"thomas.neumann@io-warnemuende.de\"},{\"@id\":\"https://orcid.org/0000-0001-6114-6212\",\"@type\":\"Person\",\"name\":\"Stefan
-        Emeis\",\"familyName\":\"Emeis\",\"givenName\":\"Stefan\",\"identifier\":\"https://orcid.org/0000-0001-6114-6212\"}],\"name\":\"Evaluation
-        of a Wind Farm Parametrization for Mesoscale Atmospheric Flow Models with
-        Aircraft Measurements\",\"datePublished\":\"2018\",\"issueNumber\":\"27(5)\",\"pagination\":\"401-415\",\"isPartOf\":{\"@type\":\"CreativeWorkSeries\",\"name\":\"Meteorologische
-        Zeitschrift\"}}],\"spatialCoverage\":{\"@type\":\"Place\",\"geo\":{\"@type\":\"GeoShape\",\"box\":\"53.452294
-        6.516988 54.993339 9.158623\"}},\"temporalCoverage\":\"2016-09-06T12:13:11/2017-10-15T15:51:13\",\"funding\":{\"@type\":\"MonetaryGrant\",\"identifier\":\"0325783B\",\"name\":\"Wind
-        Park Far Field / Wind Plant Far Field\",\"url\":\"https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&fkz=0325783B\",\"funder\":{\"@id\":\"https://doi.org/10.13039/501100006360\",\"@type\":\"Organization\",\"identifier\":\"https://doi.org/10.13039/501100006360\",\"name\":\"Federal
-        Ministry for Economic Affairs and Energy\",\"alternateName\":\"BMWi\",\"url\":\"https://www.bmwi.de/Navigation/EN/Home/home.html\"}},\"size\":{\"@type\":\"QuantitativeValue\",\"value\":41.0,\"unitText\":\"datasets\"},\"keywords\":\"airborne
-        measurements; German Bight; meteorological parameters; offshore wind park;
-        sea surface; wake\",\"license\":\"https://creativecommons.org/licenses/by/4.0/\",\"conditionsOfAccess\":\"unrestricted\",\"isAccessibleForFree\":true,\"inLanguage\":\"en\",\"distribution\":{\"@type\":\"DataDownload\",\"encodingFormat\":\"application/zip\",\"contentUrl\":\"https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip\"}}"
-    headers:
-      Alt-Svc:
-      - h3=":443"; ma=2592000
-      Cache-Control:
-      - public
-      Connection:
-      - close
-      Content-Disposition:
-      - inline; filename=Baerfuss-etal_2019.json
-      Content-Type:
-      - application/ld+json; charset=UTF-8
-      Date:
-      - Thu, 31 Aug 2023 15:25:07 GMT
-      Link:
-      - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845>;rel="describes",
-        <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip>;rel="item";type="application/zip",
-        <https://orcid.org/0000-0001-5130-5494>;rel="author", <https://orcid.org/0000-0002-9276-3587>;rel="author",
-        <https://orcid.org/0000-0003-4075-1573>;rel="author", <https://orcid.org/0000-0003-1414-1616>;rel="author"
-      Server:
-      - nginx/1.25.2
-      Set-Cookie:
-      - pansessid=b26829cadbda3e1dd7591ce0dc0307e6; Path=/; Domain=.pangaea.de; Secure;
-        HttpOnly
-      Strict-Transport-Security:
-      - max-age=31536000
-      Transfer-Encoding:
-      - chunked
-      Vary:
-      - Origin, Cookie, Authorization, Accept
-      X-CID:
-      - b26829cadbda3e1dd7591ce0dc0307e6
+      - a345184216c45d825917e35558327868
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -4148,7 +4491,7 @@ interactions:
       Content-Type:
       - application/vnd.iso19139.metadata+xml; charset=UTF-8
       Date:
-      - Thu, 31 Aug 2023 15:25:07 GMT
+      - Fri, 01 Sep 2023 05:46:38 GMT
       Link:
       - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845>;rel="describes",
         <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip>;rel="item";type="application/zip",
@@ -4157,7 +4500,7 @@ interactions:
       Server:
       - nginx/1.25.2
       Set-Cookie:
-      - pansessid=ad6e478a6433fef127ea05f6ce03809f; Path=/; Domain=.pangaea.de; Secure;
+      - pansessid=2727ded9c3d4cd029de578991de745c4; Path=/; Domain=.pangaea.de; Secure;
         HttpOnly
       Strict-Transport-Security:
       - max-age=31536000
@@ -4166,7 +4509,7 @@ interactions:
       Vary:
       - Origin, Cookie, Authorization, Accept
       X-CID:
-      - ad6e478a6433fef127ea05f6ce03809f
+      - 2727ded9c3d4cd029de578991de745c4
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -4182,7 +4525,8 @@ interactions:
     body: null
     headers:
       Accept:
-      - application/vnd.iso19139.metadata+xml,application/xml, text/xml;q=0.5
+      - text/turtle, application/turtle, application/x-turtle;q=0.8, application/rdf+xml,
+        text/n3;q=0.9, text/rdf+n3;q=0.9,application/ld+json
       Connection:
       - close
       Host:
@@ -4190,76 +4534,23 @@ interactions:
       User-Agent:
       - F-UJI
     method: GET
-    uri: https://doi.pangaea.de/10.1594/PANGAEA.902845?format=metadata_iso19139
+    uri: https://doi.pangaea.de/10.1594/PANGAEA.902845?format=metadata_jsonld
   response:
     body:
-      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><!--*** Generated from internal
-        PANGAEA metadata schema by iso19139.xslt ***--><MD_Metadata xsi:schemaLocation=\"http://www.isotc211.org/2005/gmd
-        http://www.isotc211.org/2005/gmd/gmd.xsd\" id=\"de.pangaea.dataset902845\"
-        xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\"
-        xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gml=\"http://www.opengis.net/gml\"
-        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.isotc211.org/2005/gmd\">\n<fileIdentifier>\n<gco:CharacterString>de.pangaea.dataset902845</gco:CharacterString>\n</fileIdentifier>\n<language>\n<LanguageCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#LanguageCode\"
-        codeListValue=\"eng\">eng</LanguageCode>\n</language>\n<hierarchyLevel>\n<MD_ScopeCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode\"
-        codeListValue=\"dataset\">dataset</MD_ScopeCode>\n</hierarchyLevel>\n<contact>\n<CI_ResponsibleParty>\n<organisationName>\n<gco:CharacterString>PANGAEA</gco:CharacterString>\n</organisationName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>info@pangaea.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://www.pangaea.de/</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"pointOfContact\">pointOfContact</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</contact>\n<dateStamp>\n<gco:DateTime>2023-07-26T11:51:00Z</gco:DateTime>\n</dateStamp>\n<dataSetURI>\n<gco:CharacterString>https://doi.pangaea.de/10.1594/PANGAEA.902845</gco:CharacterString>\n</dataSetURI>\n<identificationInfo>\n<MD_DataIdentification>\n<citation>\n<CI_Citation>\n<title>\n<gco:CharacterString>In-situ
+      string: "{\"@context\":\"http://schema.org/\",\"@id\":\"https://doi.org/10.1594/PANGAEA.902845\",\"@type\":\"Dataset\",\"identifier\":\"https://doi.org/10.1594/PANGAEA.902845\",\"url\":\"https://doi.pangaea.de/10.1594/PANGAEA.902845\",\"creator\":[{\"@id\":\"https://orcid.org/0000-0001-5130-5494\",\"@type\":\"Person\",\"name\":\"Konrad
+        B\xE4rfuss\",\"familyName\":\"B\xE4rfuss\",\"givenName\":\"Konrad\",\"identifier\":\"https://orcid.org/0000-0001-5130-5494\",\"email\":\"k.baerfuss@tu-bs.de\"},{\"@type\":\"Person\",\"name\":\"Rudolf
+        Hankers\",\"familyName\":\"Hankers\",\"givenName\":\"Rudolf\",\"email\":\"r.hankers@tu-bs.de\"},{\"@type\":\"Person\",\"name\":\"Mark
+        Bitter\",\"familyName\":\"Bitter\",\"givenName\":\"Mark\",\"email\":\"mark.bitter@tu-bs.de\"},{\"@type\":\"Person\",\"name\":\"Thomas
+        Feuerle\",\"familyName\":\"Feuerle\",\"givenName\":\"Thomas\",\"email\":\"t.feuerle@tu-bs.de\"},{\"@type\":\"Person\",\"name\":\"Helmut
+        Schulz\",\"familyName\":\"Schulz\",\"givenName\":\"Helmut\"},{\"@type\":\"Person\",\"name\":\"Thomas
+        Rausch\",\"familyName\":\"Rausch\",\"givenName\":\"Thomas\",\"email\":\"thomas.rausch@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0002-9276-3587\",\"@type\":\"Person\",\"name\":\"Andreas
+        Platis\",\"familyName\":\"Platis\",\"givenName\":\"Andreas\",\"identifier\":\"https://orcid.org/0000-0002-9276-3587\",\"email\":\"andreas.platis@uni-tuebingen.de\"},{\"@id\":\"https://orcid.org/0000-0003-4075-1573\",\"@type\":\"Person\",\"name\":\"Jens
+        Bange\",\"familyName\":\"Bange\",\"givenName\":\"Jens\",\"identifier\":\"https://orcid.org/0000-0003-4075-1573\",\"email\":\"jens.bange@uni-tuebingen.de\"},{\"@id\":\"https://orcid.org/0000-0003-1414-1616\",\"@type\":\"Person\",\"name\":\"Astrid
+        Lampert\",\"familyName\":\"Lampert\",\"givenName\":\"Astrid\",\"identifier\":\"https://orcid.org/0000-0003-1414-1616\",\"url\":\"https://www.tu-braunschweig.de/ilr/dasinstitut/mitarbeiter/ehemaligemitarbeiter/astridlampert\",\"email\":\"astrid.lampert@tu-bs.de\"}],\"name\":\"In-situ
         airborne measurements of atmospheric and sea surface parameters related to
-        offshore wind parks in the German Bight</gco:CharacterString>\n</title>\n<date>\n<CI_Date>\n<date>\n<gco:DateTime>2019-06-21T11:51:58</gco:DateTime>\n</date>\n<dateType>\n<CI_DateTypeCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode\"
-        codeListValue=\"publication\">publication</CI_DateTypeCode>\n</dateType>\n</CI_Date>\n</date>\n<identifier>\n<MD_Identifier>\n<code>\n<gco:CharacterString>https://doi.org/10.1594/PANGAEA.902845</gco:CharacterString>\n</code>\n</MD_Identifier>\n</identifier>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"dataset.author69919\">\n<individualName>\n<gco:CharacterString>B\xE4rfuss,
-        Konrad</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>k.baerfuss@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-5130-5494</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"dataset.author69920\">\n<individualName>\n<gco:CharacterString>Hankers,
-        Rudolf</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>r.hankers@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"dataset.author69921\">\n<individualName>\n<gco:CharacterString>Bitter,
-        Mark</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>mark.bitter@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"dataset.author69922\">\n<individualName>\n<gco:CharacterString>Feuerle,
-        Thomas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>t.feuerle@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"dataset.author69923\">\n<individualName>\n<gco:CharacterString>Schulz,
-        Helmut</gco:CharacterString>\n</individualName>\n<role>\n<CI_RoleCode codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"dataset.author69924\">\n<individualName>\n<gco:CharacterString>Rausch,
-        Thomas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>thomas.rausch@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"dataset.author69925\">\n<individualName>\n<gco:CharacterString>Platis,
-        Andreas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>andreas.platis@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-9276-3587</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"dataset.author69926\">\n<individualName>\n<gco:CharacterString>Bange,
-        Jens</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>jens.bange@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-4075-1573</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"dataset.author32784\">\n<individualName>\n<gco:CharacterString>Lampert,
-        Astrid</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>astrid.lampert@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-1414-1616</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty>\n<organisationName>\n<gco:CharacterString>PANGAEA</gco:CharacterString>\n</organisationName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>info@pangaea.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://www.pangaea.de/</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"publisher\">publisher</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<presentationForm>\n<CI_PresentationFormCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode\"
-        codeListValue=\"tableDigital\">tableDigital</CI_PresentationFormCode>\n</presentationForm>\n</CI_Citation>\n</citation>\n<abstract>\n<gco:CharacterString>Offshore
+        offshore wind parks in the German Bight\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"PANGAEA\",\"disambiguatingDescription\":\"Data
+        Publisher for Earth & Environmental Science\",\"url\":\"https://www.pangaea.de/\"},\"includedInDataCatalog\":{\"@type\":\"DataCatalog\",\"name\":\"PANGAEA\",\"disambiguatingDescription\":\"Data
+        Publisher for Earth & Environmental Science\",\"url\":\"https://www.pangaea.de/\"},\"datePublished\":\"2019-06-21\",\"description\":\"Offshore
         wind parks interact with the marine atmospheric boundary layer and can create
         long downstream wakes of reduced wind speed and changed turbulence. During
         the project WIPAFF (wind park far field) funded by the German Federal Ministry
@@ -4267,249 +4558,61 @@ interactions:
         were performed with the research aircraft Dornier-128 of TU Braunschweig between
         September 2016 and October 2017. The aircraft recorded in-situ meteorological
         parameters (wind vector, temperature, humidity) and sea surface properties
-        (temperature, elevation standard deviation)\nThe flights comprise vertical
+        (temperature, elevation standard deviation) [\u2026]\",\"abstract\":\"Offshore
+        wind parks interact with the marine atmospheric boundary layer and can create
+        long downstream wakes of reduced wind speed and changed turbulence. During
+        the project WIPAFF (wind park far field) funded by the German Federal Ministry
+        for Economic Affairs and Energy (grant number 0325783B), 41 measurement flights
+        were performed with the research aircraft Dornier-128 of TU Braunschweig between
+        September 2016 and October 2017. The aircraft recorded in-situ meteorological
+        parameters (wind vector, temperature, humidity) and sea surface properties
+        (temperature, elevation standard deviation)\\nThe flights comprise vertical
         soundings and straight legs upstream, downstream and above wind parks for
-        different synoptic conditions.</gco:CharacterString>\n</abstract>\n<status>\n<MD_ProgressCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode\"
-        codeListValue=\"completed\">completed</MD_ProgressCode>\n</status>\n<descriptiveKeywords>\n<MD_Keywords>\n<keyword>\n<gco:CharacterString>airborne
-        measurements</gco:CharacterString>\n</keyword>\n<keyword>\n<gco:CharacterString>German
-        Bight</gco:CharacterString>\n</keyword>\n<keyword>\n<gco:CharacterString>meteorological
-        parameters</gco:CharacterString>\n</keyword>\n<keyword>\n<gco:CharacterString>offshore
-        wind park</gco:CharacterString>\n</keyword>\n<keyword>\n<gco:CharacterString>sea
-        surface</gco:CharacterString>\n</keyword>\n<keyword>\n<gco:CharacterString>wake</gco:CharacterString>\n</keyword>\n<type>\n<MD_KeywordTypeCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode\"
-        codeListValue=\"theme\">theme</MD_KeywordTypeCode>\n</type>\n<thesaurusName>\n<CI_Citation>\n<title>\n<gco:CharacterString>PANGAEA
-        Keyword List</gco:CharacterString>\n</title>\n<date>\n<CI_Date>\n<date>\n<gco:Date>1995-01-01</gco:Date>\n</date>\n<dateType>\n<CI_DateTypeCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode\"
-        codeListValue=\"creation\">creation</CI_DateTypeCode>\n</dateType>\n</CI_Date>\n</date>\n<citedResponsibleParty>\n<CI_ResponsibleParty>\n<organisationName>\n<gco:CharacterString>PANGAEA</gco:CharacterString>\n</organisationName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>info@pangaea.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://www.pangaea.de/</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"pointOfContact\">pointOfContact</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n</CI_Citation>\n</thesaurusName>\n</MD_Keywords>\n</descriptiveKeywords>\n<descriptiveKeywords>\n<MD_Keywords>\n<keyword>\n<gco:CharacterString>WIPAFF</gco:CharacterString>\n</keyword>\n<keyword>\n<gco:CharacterString>Wind
-        Park Far Field</gco:CharacterString>\n</keyword>\n<type>\n<MD_KeywordTypeCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode\"
-        codeListValue=\"theme\">theme</MD_KeywordTypeCode>\n</type>\n<thesaurusName>\n<CI_Citation>\n<title>\n<gco:CharacterString>PANGAEA
-        Project List</gco:CharacterString>\n</title>\n<date>\n<CI_Date>\n<date>\n<gco:Date>1995-01-01</gco:Date>\n</date>\n<dateType>\n<CI_DateTypeCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode\"
-        codeListValue=\"creation\">creation</CI_DateTypeCode>\n</dateType>\n</CI_Date>\n</date>\n<citedResponsibleParty>\n<CI_ResponsibleParty>\n<organisationName>\n<gco:CharacterString>PANGAEA</gco:CharacterString>\n</organisationName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>info@pangaea.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://www.pangaea.de/</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"pointOfContact\">pointOfContact</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n</CI_Citation>\n</thesaurusName>\n</MD_Keywords>\n</descriptiveKeywords>\n<resourceConstraints>\n<MD_LegalConstraints>\n<accessConstraints>\n<MD_RestrictionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode\"
-        codeListValue=\"copyright\">copyright</MD_RestrictionCode>\n</accessConstraints>\n<useConstraints>\n<MD_RestrictionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode\"
-        codeListValue=\"copyright\">copyright</MD_RestrictionCode>\n</useConstraints>\n<otherConstraints>\n<gco:CharacterString>CC-BY-4.0:
-        Creative Commons Attribution 4.0 International</gco:CharacterString>\n</otherConstraints>\n</MD_LegalConstraints>\n</resourceConstraints>\n<spatialRepresentationType>\n<MD_SpatialRepresentationTypeCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode\"
-        codeListValue=\"textTable\">textTable</MD_SpatialRepresentationTypeCode>\n</spatialRepresentationType>\n<language>\n<LanguageCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#LanguageCode\"
-        codeListValue=\"eng\">eng</LanguageCode>\n</language>\n<topicCategory>\n<MD_TopicCategoryCode>geoscientificInformation</MD_TopicCategoryCode>\n</topicCategory>\n<extent>\n<EX_Extent>\n<geographicElement>\n<EX_GeographicBoundingBox>\n<gmd:westBoundLongitude>\n<gco:Decimal>6.516988</gco:Decimal>\n</gmd:westBoundLongitude>\n<gmd:eastBoundLongitude>\n<gco:Decimal>9.158623</gco:Decimal>\n</gmd:eastBoundLongitude>\n<gmd:southBoundLatitude>\n<gco:Decimal>53.452294</gco:Decimal>\n</gmd:southBoundLatitude>\n<gmd:northBoundLatitude>\n<gco:Decimal>54.993339</gco:Decimal>\n</gmd:northBoundLatitude>\n</EX_GeographicBoundingBox>\n</geographicElement>\n<temporalElement>\n<EX_TemporalExtent>\n<extent>\n<gml:TimePeriod
-        gml:id=\"timePeriod\">\n<gml:beginPosition>2016-09-06T12:13:11</gml:beginPosition>\n<gml:endPosition>2017-10-15T15:51:13</gml:endPosition>\n</gml:TimePeriod>\n</extent>\n</EX_TemporalExtent>\n</temporalElement>\n</EX_Extent>\n</extent>\n</MD_DataIdentification>\n</identificationInfo>\n<distributionInfo>\n<MD_Distribution>\n<distributionFormat>\n<MD_Format>\n<name>\n<gco:CharacterString>application/zip</gco:CharacterString>\n</name>\n<version>\n<gco:CharacterString>unknown</gco:CharacterString>\n</version>\n</MD_Format>\n</distributionFormat>\n<transferOptions>\n<MD_DigitalTransferOptions>\n<onLine>\n<CI_OnlineResource>\n<linkage>\n<URL>https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"download\">download</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onLine>\n</MD_DigitalTransferOptions>\n</transferOptions>\n</MD_Distribution>\n</distributionInfo>\n<dataQualityInfo>\n<DQ_DataQuality>\n<scope>\n<DQ_Scope>\n<level>\n<MD_ScopeCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode\"
-        codeListValue=\"dataset\">dataset</MD_ScopeCode>\n</level>\n</DQ_Scope>\n</scope>\n<lineage>\n<LI_Lineage>\n<statement>\n<gco:CharacterString>The
-        data set was checked for completeness, correctness, and consistency of metainformation.
-        Validity of used methods was checked and - if applicable - precision and range
-        of data.</gco:CharacterString>\n</statement>\n<source>\n<LI_Source id=\"ref100073\">\n<description>\n<gco:CharacterString>Related
-        to</gco:CharacterString>\n</description>\n<sourceCitation>\n<CI_Citation>\n<title>\n<gco:CharacterString>First
-        in situ evidence of wakes in the far field behind offshore wind farms</gco:CharacterString>\n</title>\n<date>\n<CI_Date>\n<date>\n<gco:Date>2018-01-01</gco:Date>\n</date>\n<dateType>\n<CI_DateTypeCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode\"
-        codeListValue=\"publication\">publication</CI_DateTypeCode>\n</dateType>\n</CI_Date>\n</date>\n<identifier>\n<MD_Identifier>\n<code>\n<gco:CharacterString>https://doi.org/10.1038/s41598-018-20389-y</gco:CharacterString>\n</code>\n</MD_Identifier>\n</identifier>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100073.author69925\">\n<individualName>\n<gco:CharacterString>Platis,
-        Andreas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>andreas.platis@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-9276-3587</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100073.author69927\">\n<individualName>\n<gco:CharacterString>Siedersleben,
-        Simon K</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-8467-1471</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100073.author69926\">\n<individualName>\n<gco:CharacterString>Bange,
-        Jens</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>jens.bange@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-4075-1573</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100073.author32784\">\n<individualName>\n<gco:CharacterString>Lampert,
-        Astrid</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>astrid.lampert@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-1414-1616</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100073.author69919\">\n<individualName>\n<gco:CharacterString>B\xE4rfuss,
-        Konrad</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>k.baerfuss@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-5130-5494</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100073.author69920\">\n<individualName>\n<gco:CharacterString>Hankers,
-        Rudolf</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>r.hankers@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100073.author69928\">\n<individualName>\n<gco:CharacterString>Ca\xF1adillas,
-        Beatriz</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>b.canadillas@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-2004-0336</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100073.author69929\">\n<individualName>\n<gco:CharacterString>Foreman,
-        Richard</gco:CharacterString>\n</individualName>\n<role>\n<CI_RoleCode codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100073.author61851\">\n<individualName>\n<gco:CharacterString>Schulz-Stellenfleth,
-        Johannes</gco:CharacterString>\n</individualName>\n<role>\n<CI_RoleCode codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100073.author69930\">\n<individualName>\n<gco:CharacterString>Djath,
-        Bughsin</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-1121-5272</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100073.author22721\">\n<individualName>\n<gco:CharacterString>Neumann,
-        Thomas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>thomas.neumann@io-warnemuende.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100073.author70090\">\n<individualName>\n<gco:CharacterString>Emeis,
-        Stefan</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-6114-6212</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<presentationForm>\n<CI_PresentationFormCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode\"
-        codeListValue=\"documentDigital\">documentDigital</CI_PresentationFormCode>\n</presentationForm>\n<series>\n<CI_Series>\n<name>\n<gco:CharacterString>Scientific
-        Reports</gco:CharacterString>\n</name>\n<issueIdentification>\n<gco:CharacterString>8(1)</gco:CharacterString>\n</issueIdentification>\n</CI_Series>\n</series>\n</CI_Citation>\n</sourceCitation>\n</LI_Source>\n</source>\n<source>\n<LI_Source
-        id=\"ref100074\">\n<description>\n<gco:CharacterString>Related to</gco:CharacterString>\n</description>\n<sourceCitation>\n<CI_Citation>\n<title>\n<gco:CharacterString>Micrometeorological
-        impacts of offshore wind farms as seen in observations and simulations</gco:CharacterString>\n</title>\n<date>\n<CI_Date>\n<date>\n<gco:Date>2018-01-01</gco:Date>\n</date>\n<dateType>\n<CI_DateTypeCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode\"
-        codeListValue=\"publication\">publication</CI_DateTypeCode>\n</dateType>\n</CI_Date>\n</date>\n<identifier>\n<MD_Identifier>\n<code>\n<gco:CharacterString>https://doi.org/10.1088/1748-9326/aaea0b</gco:CharacterString>\n</code>\n</MD_Identifier>\n</identifier>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100074.author69927\">\n<individualName>\n<gco:CharacterString>Siedersleben,
-        Simon K</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-8467-1471</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100074.author69931\">\n<individualName>\n<gco:CharacterString>Lundquist,
-        Julie K</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-5490-2702</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100074.author69925\">\n<individualName>\n<gco:CharacterString>Platis,
-        Andreas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>andreas.platis@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-9276-3587</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100074.author69926\">\n<individualName>\n<gco:CharacterString>Bange,
-        Jens</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>jens.bange@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-4075-1573</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100074.author69919\">\n<individualName>\n<gco:CharacterString>B\xE4rfuss,
-        Konrad</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>k.baerfuss@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-5130-5494</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100074.author32784\">\n<individualName>\n<gco:CharacterString>Lampert,
-        Astrid</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>astrid.lampert@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-1414-1616</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100074.author69928\">\n<individualName>\n<gco:CharacterString>Ca\xF1adillas,
-        Beatriz</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>b.canadillas@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-2004-0336</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100074.author22721\">\n<individualName>\n<gco:CharacterString>Neumann,
-        Thomas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>thomas.neumann@io-warnemuende.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100074.author70090\">\n<individualName>\n<gco:CharacterString>Emeis,
-        Stefan</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-6114-6212</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<presentationForm>\n<CI_PresentationFormCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode\"
-        codeListValue=\"documentDigital\">documentDigital</CI_PresentationFormCode>\n</presentationForm>\n<series>\n<CI_Series>\n<name>\n<gco:CharacterString>Environmental
-        Research Letters</gco:CharacterString>\n</name>\n<issueIdentification>\n<gco:CharacterString>13(12)</gco:CharacterString>\n</issueIdentification>\n<page>\n<gco:CharacterString>124012</gco:CharacterString>\n</page>\n</CI_Series>\n</series>\n</CI_Citation>\n</sourceCitation>\n</LI_Source>\n</source>\n<source>\n<LI_Source
-        id=\"ref100075\">\n<description>\n<gco:CharacterString>Related to</gco:CharacterString>\n</description>\n<sourceCitation>\n<CI_Citation>\n<title>\n<gco:CharacterString>Evaluation
+        different synoptic conditions.\",\"citation\":[{\"@id\":\"https://doi.org/10.1038/s41598-018-20389-y\",\"@type\":[\"CreativeWork\",\"PublicationIssue\"],\"identifier\":\"https://doi.org/10.1038/s41598-018-20389-y\",\"url\":\"https://doi.org/10.1038/s41598-018-20389-y\",\"creator\":[{\"@id\":\"https://orcid.org/0000-0002-9276-3587\",\"@type\":\"Person\",\"name\":\"Andreas
+        Platis\",\"familyName\":\"Platis\",\"givenName\":\"Andreas\",\"identifier\":\"https://orcid.org/0000-0002-9276-3587\",\"email\":\"andreas.platis@uni-tuebingen.de\"},{\"@id\":\"https://orcid.org/0000-0002-8467-1471\",\"@type\":\"Person\",\"name\":\"Simon
+        K Siedersleben\",\"familyName\":\"Siedersleben\",\"givenName\":\"Simon K\",\"identifier\":\"https://orcid.org/0000-0002-8467-1471\"},{\"@id\":\"https://orcid.org/0000-0003-4075-1573\",\"@type\":\"Person\",\"name\":\"Jens
+        Bange\",\"familyName\":\"Bange\",\"givenName\":\"Jens\",\"identifier\":\"https://orcid.org/0000-0003-4075-1573\",\"email\":\"jens.bange@uni-tuebingen.de\"},{\"@id\":\"https://orcid.org/0000-0003-1414-1616\",\"@type\":\"Person\",\"name\":\"Astrid
+        Lampert\",\"familyName\":\"Lampert\",\"givenName\":\"Astrid\",\"identifier\":\"https://orcid.org/0000-0003-1414-1616\",\"url\":\"https://www.tu-braunschweig.de/ilr/dasinstitut/mitarbeiter/ehemaligemitarbeiter/astridlampert\",\"email\":\"astrid.lampert@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0001-5130-5494\",\"@type\":\"Person\",\"name\":\"Konrad
+        B\xE4rfuss\",\"familyName\":\"B\xE4rfuss\",\"givenName\":\"Konrad\",\"identifier\":\"https://orcid.org/0000-0001-5130-5494\",\"email\":\"k.baerfuss@tu-bs.de\"},{\"@type\":\"Person\",\"name\":\"Rudolf
+        Hankers\",\"familyName\":\"Hankers\",\"givenName\":\"Rudolf\",\"email\":\"r.hankers@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0003-2004-0336\",\"@type\":\"Person\",\"name\":\"Beatriz
+        Ca\xF1adillas\",\"familyName\":\"Ca\xF1adillas\",\"givenName\":\"Beatriz\",\"identifier\":\"https://orcid.org/0000-0003-2004-0336\",\"email\":\"b.canadillas@tu-bs.de\"},{\"@type\":\"Person\",\"name\":\"Richard
+        Foreman\",\"familyName\":\"Foreman\",\"givenName\":\"Richard\"},{\"@type\":\"Person\",\"name\":\"Johannes
+        Schulz-Stellenfleth\",\"familyName\":\"Schulz-Stellenfleth\",\"givenName\":\"Johannes\"},{\"@id\":\"https://orcid.org/0000-0002-1121-5272\",\"@type\":\"Person\",\"name\":\"Bughsin
+        Djath\",\"familyName\":\"Djath\",\"givenName\":\"Bughsin\",\"identifier\":\"https://orcid.org/0000-0002-1121-5272\"},{\"@type\":\"Person\",\"name\":\"Thomas
+        Neumann\",\"familyName\":\"Neumann\",\"givenName\":\"Thomas\",\"email\":\"thomas.neumann@io-warnemuende.de\"},{\"@id\":\"https://orcid.org/0000-0001-6114-6212\",\"@type\":\"Person\",\"name\":\"Stefan
+        Emeis\",\"familyName\":\"Emeis\",\"givenName\":\"Stefan\",\"identifier\":\"https://orcid.org/0000-0001-6114-6212\"}],\"name\":\"First
+        in situ evidence of wakes in the far field behind offshore wind farms\",\"datePublished\":\"2018\",\"issueNumber\":\"8(1)\",\"isPartOf\":{\"@type\":\"CreativeWorkSeries\",\"name\":\"Scientific
+        Reports\"}},{\"@id\":\"https://doi.org/10.1088/1748-9326/aaea0b\",\"@type\":[\"CreativeWork\",\"PublicationIssue\"],\"identifier\":\"https://doi.org/10.1088/1748-9326/aaea0b\",\"url\":\"https://doi.org/10.1088/1748-9326/aaea0b\",\"creator\":[{\"@id\":\"https://orcid.org/0000-0002-8467-1471\",\"@type\":\"Person\",\"name\":\"Simon
+        K Siedersleben\",\"familyName\":\"Siedersleben\",\"givenName\":\"Simon K\",\"identifier\":\"https://orcid.org/0000-0002-8467-1471\"},{\"@id\":\"https://orcid.org/0000-0001-5490-2702\",\"@type\":\"Person\",\"name\":\"Julie
+        K Lundquist\",\"familyName\":\"Lundquist\",\"givenName\":\"Julie K\",\"identifier\":\"https://orcid.org/0000-0001-5490-2702\"},{\"@id\":\"https://orcid.org/0000-0002-9276-3587\",\"@type\":\"Person\",\"name\":\"Andreas
+        Platis\",\"familyName\":\"Platis\",\"givenName\":\"Andreas\",\"identifier\":\"https://orcid.org/0000-0002-9276-3587\",\"email\":\"andreas.platis@uni-tuebingen.de\"},{\"@id\":\"https://orcid.org/0000-0003-4075-1573\",\"@type\":\"Person\",\"name\":\"Jens
+        Bange\",\"familyName\":\"Bange\",\"givenName\":\"Jens\",\"identifier\":\"https://orcid.org/0000-0003-4075-1573\",\"email\":\"jens.bange@uni-tuebingen.de\"},{\"@id\":\"https://orcid.org/0000-0001-5130-5494\",\"@type\":\"Person\",\"name\":\"Konrad
+        B\xE4rfuss\",\"familyName\":\"B\xE4rfuss\",\"givenName\":\"Konrad\",\"identifier\":\"https://orcid.org/0000-0001-5130-5494\",\"email\":\"k.baerfuss@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0003-1414-1616\",\"@type\":\"Person\",\"name\":\"Astrid
+        Lampert\",\"familyName\":\"Lampert\",\"givenName\":\"Astrid\",\"identifier\":\"https://orcid.org/0000-0003-1414-1616\",\"url\":\"https://www.tu-braunschweig.de/ilr/dasinstitut/mitarbeiter/ehemaligemitarbeiter/astridlampert\",\"email\":\"astrid.lampert@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0003-2004-0336\",\"@type\":\"Person\",\"name\":\"Beatriz
+        Ca\xF1adillas\",\"familyName\":\"Ca\xF1adillas\",\"givenName\":\"Beatriz\",\"identifier\":\"https://orcid.org/0000-0003-2004-0336\",\"email\":\"b.canadillas@tu-bs.de\"},{\"@type\":\"Person\",\"name\":\"Thomas
+        Neumann\",\"familyName\":\"Neumann\",\"givenName\":\"Thomas\",\"email\":\"thomas.neumann@io-warnemuende.de\"},{\"@id\":\"https://orcid.org/0000-0001-6114-6212\",\"@type\":\"Person\",\"name\":\"Stefan
+        Emeis\",\"familyName\":\"Emeis\",\"givenName\":\"Stefan\",\"identifier\":\"https://orcid.org/0000-0001-6114-6212\"}],\"name\":\"Micrometeorological
+        impacts of offshore wind farms as seen in observations and simulations\",\"datePublished\":\"2018\",\"issueNumber\":\"13(12)\",\"pagination\":\"124012\",\"isPartOf\":{\"@type\":\"CreativeWorkSeries\",\"name\":\"Environmental
+        Research Letters\"}},{\"@id\":\"https://doi.org/10.1127/metz/2018/0900\",\"@type\":[\"CreativeWork\",\"PublicationIssue\"],\"identifier\":\"https://doi.org/10.1127/metz/2018/0900\",\"url\":\"https://doi.org/10.1127/metz/2018/0900\",\"creator\":[{\"@id\":\"https://orcid.org/0000-0002-8467-1471\",\"@type\":\"Person\",\"name\":\"Simon
+        K Siedersleben\",\"familyName\":\"Siedersleben\",\"givenName\":\"Simon K\",\"identifier\":\"https://orcid.org/0000-0002-8467-1471\"},{\"@id\":\"https://orcid.org/0000-0002-9276-3587\",\"@type\":\"Person\",\"name\":\"Andreas
+        Platis\",\"familyName\":\"Platis\",\"givenName\":\"Andreas\",\"identifier\":\"https://orcid.org/0000-0002-9276-3587\",\"email\":\"andreas.platis@uni-tuebingen.de\"},{\"@id\":\"https://orcid.org/0000-0001-5490-2702\",\"@type\":\"Person\",\"name\":\"Julie
+        K Lundquist\",\"familyName\":\"Lundquist\",\"givenName\":\"Julie K\",\"identifier\":\"https://orcid.org/0000-0001-5490-2702\"},{\"@id\":\"https://orcid.org/0000-0003-1414-1616\",\"@type\":\"Person\",\"name\":\"Astrid
+        Lampert\",\"familyName\":\"Lampert\",\"givenName\":\"Astrid\",\"identifier\":\"https://orcid.org/0000-0003-1414-1616\",\"url\":\"https://www.tu-braunschweig.de/ilr/dasinstitut/mitarbeiter/ehemaligemitarbeiter/astridlampert\",\"email\":\"astrid.lampert@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0001-5130-5494\",\"@type\":\"Person\",\"name\":\"Konrad
+        B\xE4rfuss\",\"familyName\":\"B\xE4rfuss\",\"givenName\":\"Konrad\",\"identifier\":\"https://orcid.org/0000-0001-5130-5494\",\"email\":\"k.baerfuss@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0003-2004-0336\",\"@type\":\"Person\",\"name\":\"Beatriz
+        Ca\xF1adillas\",\"familyName\":\"Ca\xF1adillas\",\"givenName\":\"Beatriz\",\"identifier\":\"https://orcid.org/0000-0003-2004-0336\",\"email\":\"b.canadillas@tu-bs.de\"},{\"@id\":\"https://orcid.org/0000-0002-1121-5272\",\"@type\":\"Person\",\"name\":\"Bughsin
+        Djath\",\"familyName\":\"Djath\",\"givenName\":\"Bughsin\",\"identifier\":\"https://orcid.org/0000-0002-1121-5272\"},{\"@type\":\"Person\",\"name\":\"Johannes
+        Schulz-Stellenfleth\",\"familyName\":\"Schulz-Stellenfleth\",\"givenName\":\"Johannes\"},{\"@id\":\"https://orcid.org/0000-0003-4075-1573\",\"@type\":\"Person\",\"name\":\"Jens
+        Bange\",\"familyName\":\"Bange\",\"givenName\":\"Jens\",\"identifier\":\"https://orcid.org/0000-0003-4075-1573\",\"email\":\"jens.bange@uni-tuebingen.de\"},{\"@type\":\"Person\",\"name\":\"Thomas
+        Neumann\",\"familyName\":\"Neumann\",\"givenName\":\"Thomas\",\"email\":\"thomas.neumann@io-warnemuende.de\"},{\"@id\":\"https://orcid.org/0000-0001-6114-6212\",\"@type\":\"Person\",\"name\":\"Stefan
+        Emeis\",\"familyName\":\"Emeis\",\"givenName\":\"Stefan\",\"identifier\":\"https://orcid.org/0000-0001-6114-6212\"}],\"name\":\"Evaluation
         of a Wind Farm Parametrization for Mesoscale Atmospheric Flow Models with
-        Aircraft Measurements</gco:CharacterString>\n</title>\n<date>\n<CI_Date>\n<date>\n<gco:Date>2018-01-01</gco:Date>\n</date>\n<dateType>\n<CI_DateTypeCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode\"
-        codeListValue=\"publication\">publication</CI_DateTypeCode>\n</dateType>\n</CI_Date>\n</date>\n<identifier>\n<MD_Identifier>\n<code>\n<gco:CharacterString>https://doi.org/10.1127/metz/2018/0900</gco:CharacterString>\n</code>\n</MD_Identifier>\n</identifier>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100075.author69927\">\n<individualName>\n<gco:CharacterString>Siedersleben,
-        Simon K</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-8467-1471</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100075.author69925\">\n<individualName>\n<gco:CharacterString>Platis,
-        Andreas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>andreas.platis@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-9276-3587</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100075.author69931\">\n<individualName>\n<gco:CharacterString>Lundquist,
-        Julie K</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-5490-2702</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100075.author32784\">\n<individualName>\n<gco:CharacterString>Lampert,
-        Astrid</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>astrid.lampert@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-1414-1616</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100075.author69919\">\n<individualName>\n<gco:CharacterString>B\xE4rfuss,
-        Konrad</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>k.baerfuss@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-5130-5494</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100075.author69928\">\n<individualName>\n<gco:CharacterString>Ca\xF1adillas,
-        Beatriz</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>b.canadillas@tu-bs.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-2004-0336</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100075.author69930\">\n<individualName>\n<gco:CharacterString>Djath,
-        Bughsin</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0002-1121-5272</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100075.author61851\">\n<individualName>\n<gco:CharacterString>Schulz-Stellenfleth,
-        Johannes</gco:CharacterString>\n</individualName>\n<role>\n<CI_RoleCode codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100075.author69926\">\n<individualName>\n<gco:CharacterString>Bange,
-        Jens</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>jens.bange@uni-tuebingen.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0003-4075-1573</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100075.author22721\">\n<individualName>\n<gco:CharacterString>Neumann,
-        Thomas</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<address>\n<CI_Address>\n<electronicMailAddress>\n<gco:CharacterString>thomas.neumann@io-warnemuende.de</gco:CharacterString>\n</electronicMailAddress>\n</CI_Address>\n</address>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<citedResponsibleParty>\n<CI_ResponsibleParty
-        id=\"ref100075.author70090\">\n<individualName>\n<gco:CharacterString>Emeis,
-        Stefan</gco:CharacterString>\n</individualName>\n<contactInfo>\n<CI_Contact>\n<onlineResource>\n<CI_OnlineResource>\n<linkage>\n<URL>https://orcid.org/0000-0001-6114-6212</URL>\n</linkage>\n<function>\n<CI_OnLineFunctionCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode\"
-        codeListValue=\"information\">information</CI_OnLineFunctionCode>\n</function>\n</CI_OnlineResource>\n</onlineResource>\n</CI_Contact>\n</contactInfo>\n<role>\n<CI_RoleCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode\"
-        codeListValue=\"author\">author</CI_RoleCode>\n</role>\n</CI_ResponsibleParty>\n</citedResponsibleParty>\n<presentationForm>\n<CI_PresentationFormCode
-        codeList=\"http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode\"
-        codeListValue=\"documentDigital\">documentDigital</CI_PresentationFormCode>\n</presentationForm>\n<series>\n<CI_Series>\n<name>\n<gco:CharacterString>Meteorologische
-        Zeitschrift</gco:CharacterString>\n</name>\n<issueIdentification>\n<gco:CharacterString>27(5)</gco:CharacterString>\n</issueIdentification>\n<page>\n<gco:CharacterString>401-415</gco:CharacterString>\n</page>\n</CI_Series>\n</series>\n</CI_Citation>\n</sourceCitation>\n</LI_Source>\n</source>\n</LI_Lineage>\n</lineage>\n</DQ_DataQuality>\n</dataQualityInfo>\n</MD_Metadata>\n"
+        Aircraft Measurements\",\"datePublished\":\"2018\",\"issueNumber\":\"27(5)\",\"pagination\":\"401-415\",\"isPartOf\":{\"@type\":\"CreativeWorkSeries\",\"name\":\"Meteorologische
+        Zeitschrift\"}}],\"spatialCoverage\":{\"@type\":\"Place\",\"geo\":{\"@type\":\"GeoShape\",\"box\":\"53.452294
+        6.516988 54.993339 9.158623\"}},\"temporalCoverage\":\"2016-09-06T12:13:11/2017-10-15T15:51:13\",\"funding\":{\"@type\":\"MonetaryGrant\",\"identifier\":\"0325783B\",\"name\":\"Wind
+        Park Far Field / Wind Plant Far Field\",\"url\":\"https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&fkz=0325783B\",\"funder\":{\"@id\":\"https://doi.org/10.13039/501100006360\",\"@type\":\"Organization\",\"identifier\":\"https://doi.org/10.13039/501100006360\",\"name\":\"Federal
+        Ministry for Economic Affairs and Energy\",\"alternateName\":\"BMWi\",\"url\":\"https://www.bmwi.de/Navigation/EN/Home/home.html\"}},\"size\":{\"@type\":\"QuantitativeValue\",\"value\":41.0,\"unitText\":\"datasets\"},\"keywords\":\"airborne
+        measurements; German Bight; meteorological parameters; offshore wind park;
+        sea surface; wake\",\"license\":\"https://creativecommons.org/licenses/by/4.0/\",\"conditionsOfAccess\":\"unrestricted\",\"isAccessibleForFree\":true,\"inLanguage\":\"en\",\"distribution\":{\"@type\":\"DataDownload\",\"encodingFormat\":\"application/zip\",\"contentUrl\":\"https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip\"}}"
     headers:
       Alt-Svc:
       - h3=":443"; ma=2592000
@@ -4518,11 +4621,11 @@ interactions:
       Connection:
       - close
       Content-Disposition:
-      - inline; filename=Baerfuss-etal_2019.iso19139.xml
+      - inline; filename=Baerfuss-etal_2019.json
       Content-Type:
-      - application/vnd.iso19139.metadata+xml; charset=UTF-8
+      - application/ld+json; charset=UTF-8
       Date:
-      - Thu, 31 Aug 2023 15:25:07 GMT
+      - Fri, 01 Sep 2023 05:46:39 GMT
       Link:
       - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845>;rel="describes",
         <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip>;rel="item";type="application/zip",
@@ -4531,7 +4634,7 @@ interactions:
       Server:
       - nginx/1.25.2
       Set-Cookie:
-      - pansessid=81ad68ce5a8f11a8c6f5baee5316a270; Path=/; Domain=.pangaea.de; Secure;
+      - pansessid=5a24a60c11202e606d99bf6884452786; Path=/; Domain=.pangaea.de; Secure;
         HttpOnly
       Strict-Transport-Security:
       - max-age=31536000
@@ -4540,114 +4643,11 @@ interactions:
       Vary:
       - Origin, Cookie, Authorization, Accept
       X-CID:
-      - 81ad68ce5a8f11a8c6f5baee5316a270
+      - 5a24a60c11202e606d99bf6884452786
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
       - SAMEORIGIN
-      X-Robots-Tag:
-      - noindex,nofollow,archive
-      X-UA-Compatible:
-      - IE=Edge
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/vnd.datacite.datacite+xml,application/xml, text/xml;q=0.5
-      Connection:
-      - close
-      Host:
-      - doi.pangaea.de
-      User-Agent:
-      - F-UJI
-    method: GET
-    uri: https://doi.pangaea.de/10.1594/PANGAEA.902845?format=metadata_datacite4
-  response:
-    body:
-      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><resource xsi:schemaLocation=\"http://datacite.org/schema/kernel-4
-        http://schema.datacite.org/meta/kernel-4.3/metadata.xsd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
-        xmlns=\"http://datacite.org/schema/kernel-4\"><identifier identifierType=\"DOI\">10.1594/PANGAEA.902845</identifier><creators><creator><creatorName>B\xE4rfuss,
-        Konrad</creatorName><givenName>Konrad</givenName><familyName>B\xE4rfuss</familyName><nameIdentifier
-        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0001-5130-5494</nameIdentifier></creator><creator><creatorName>Hankers,
-        Rudolf</creatorName><givenName>Rudolf</givenName><familyName>Hankers</familyName></creator><creator><creatorName>Bitter,
-        Mark</creatorName><givenName>Mark</givenName><familyName>Bitter</familyName></creator><creator><creatorName>Feuerle,
-        Thomas</creatorName><givenName>Thomas</givenName><familyName>Feuerle</familyName></creator><creator><creatorName>Schulz,
-        Helmut</creatorName><givenName>Helmut</givenName><familyName>Schulz</familyName></creator><creator><creatorName>Rausch,
-        Thomas</creatorName><givenName>Thomas</givenName><familyName>Rausch</familyName></creator><creator><creatorName>Platis,
-        Andreas</creatorName><givenName>Andreas</givenName><familyName>Platis</familyName><nameIdentifier
-        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0002-9276-3587</nameIdentifier></creator><creator><creatorName>Bange,
-        Jens</creatorName><givenName>Jens</givenName><familyName>Bange</familyName><nameIdentifier
-        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0003-4075-1573</nameIdentifier></creator><creator><creatorName>Lampert,
-        Astrid</creatorName><givenName>Astrid</givenName><familyName>Lampert</familyName><nameIdentifier
-        schemeURI=\"http://orcid.org/\" nameIdentifierScheme=\"ORCID\">0000-0003-1414-1616</nameIdentifier></creator></creators><titles><title>In-situ
-        airborne measurements of atmospheric and sea surface parameters related to
-        offshore wind parks in the German Bight</title></titles><publisher>PANGAEA</publisher><publicationYear>2019</publicationYear><subjects><subject>airborne
-        measurements</subject><subject>German Bight</subject><subject>meteorological
-        parameters</subject><subject>offshore wind park</subject><subject>sea surface</subject><subject>wake</subject><subject
-        subjectScheme=\"Project\">Wind Park Far Field (WIPAFF)</subject></subjects><dates><date
-        dateType=\"Collected\">2016-09-06T12:13:11/2017-10-15T15:51:13</date></dates><language>en</language><resourceType
-        resourceTypeGeneral=\"Collection\">Publication Series of Datasets</resourceType><relatedIdentifiers><relatedIdentifier
-        relatedIdentifierType=\"DOI\" relationType=\"References\">10.1038/s41598-018-20389-y</relatedIdentifier><relatedIdentifier
-        relatedIdentifierType=\"DOI\" relationType=\"References\">10.1088/1748-9326/aaea0b</relatedIdentifier><relatedIdentifier
-        relatedIdentifierType=\"DOI\" relationType=\"References\">10.1127/metz/2018/0900</relatedIdentifier></relatedIdentifiers><sizes><size>41
-        datasets</size></sizes><formats><format>application/zip</format></formats><rightsList><rights
-        rightsURI=\"https://creativecommons.org/licenses/by/4.0/\" schemeURI=\"https://spdx.org/licenses/\"
-        rightsIdentifierScheme=\"SPDX\" rightsIdentifier=\"CC-BY-4.0\">Creative Commons
-        Attribution 4.0 International</rights></rightsList><descriptions><description
-        descriptionType=\"Abstract\">Offshore wind parks interact with the marine
-        atmospheric boundary layer and can create long downstream wakes of reduced
-        wind speed and changed turbulence. During the project WIPAFF (wind park far
-        field) funded by the German Federal Ministry for Economic Affairs and Energy
-        (grant number 0325783B), 41 measurement flights were performed with the research
-        aircraft Dornier-128 of TU Braunschweig between September 2016 and October
-        2017. The aircraft recorded in-situ meteorological parameters (wind vector,
-        temperature, humidity) and sea surface properties (temperature, elevation
-        standard deviation)<br/>The flights comprise vertical soundings and straight
-        legs upstream, downstream and above wind parks for different synoptic conditions.</description></descriptions><geoLocations><geoLocation><geoLocationBox><westBoundLongitude>6.516988</westBoundLongitude><eastBoundLongitude>9.158623</eastBoundLongitude><southBoundLatitude>53.452294</southBoundLatitude><northBoundLatitude>54.993339</northBoundLatitude></geoLocationBox></geoLocation></geoLocations><fundingReferences><fundingReference><funderName>Federal
-        Ministry for Economic Affairs and Energy</funderName><funderIdentifier funderIdentifierType=\"Crossref
-        Funder ID\">https://doi.org/10.13039/501100006360</funderIdentifier><awardNumber
-        awardURI=\"https://foerderportal.bund.de/foekat/jsp/SucheAction.do?actionMode=view&amp;fkz=0325783B\">0325783B</awardNumber><awardTitle>Wind
-        Park Far Field / Wind Plant Far Field</awardTitle></fundingReference></fundingReferences></resource>"
-    headers:
-      Alt-Svc:
-      - h3=":443"; ma=2592000
-      Cache-Control:
-      - public
-      Connection:
-      - close
-      Content-Disposition:
-      - inline; filename=Baerfuss-etal_2019.datacite.xml
-      Content-Type:
-      - application/vnd.datacite.datacite+xml; charset=UTF-8
-      Date:
-      - Thu, 31 Aug 2023 15:25:08 GMT
-      Link:
-      - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845>;rel="describes",
-        <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip>;rel="item";type="application/zip",
-        <https://orcid.org/0000-0001-5130-5494>;rel="author", <https://orcid.org/0000-0002-9276-3587>;rel="author",
-        <https://orcid.org/0000-0003-4075-1573>;rel="author", <https://orcid.org/0000-0003-1414-1616>;rel="author"
-      Server:
-      - nginx/1.25.2
-      Set-Cookie:
-      - pansessid=2134ed43c8eec9105bc6126aeb672af7; Path=/; Domain=.pangaea.de; Secure;
-        HttpOnly
-      Strict-Transport-Security:
-      - max-age=31536000
-      Transfer-Encoding:
-      - chunked
-      Vary:
-      - Origin, Cookie, Authorization, Accept
-      X-CID:
-      - 2134ed43c8eec9105bc6126aeb672af7
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Robots-Tag:
-      - noindex,nofollow,archive
       X-UA-Compatible:
       - IE=Edge
     status:
@@ -4819,7 +4819,7 @@ interactions:
       Content-Type:
       - application/vnd.pangaea.metadata+xml; charset=UTF-8
       Date:
-      - Thu, 31 Aug 2023 15:25:08 GMT
+      - Fri, 01 Sep 2023 05:46:39 GMT
       Link:
       - <https://doi.org/10.1594/PANGAEA.902845>;rel="cite-as", <https://doi.pangaea.de/10.1594/PANGAEA.902845>;rel="describes",
         <https://doi.pangaea.de/10.1594/PANGAEA.902845?format=zip>;rel="item";type="application/zip",
@@ -4828,7 +4828,7 @@ interactions:
       Server:
       - nginx/1.25.2
       Set-Cookie:
-      - pansessid=b134f0286972ae66de5a849625a1961f; Path=/; Domain=.pangaea.de; Secure;
+      - pansessid=274fdaa533bbf6af55dbe10bd958f8d1; Path=/; Domain=.pangaea.de; Secure;
         HttpOnly
       Strict-Transport-Security:
       - max-age=31536000
@@ -4837,7 +4837,7 @@ interactions:
       Vary:
       - Origin, Cookie, Authorization, Accept
       X-CID:
-      - b134f0286972ae66de5a849625a1961f
+      - 274fdaa533bbf6af55dbe10bd958f8d1
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
