@@ -68,7 +68,8 @@ version = "3.0.0"
 [project.optional-dependencies]
 dev = [
   "fuji[testing]",
-  "pre-commit~=3.3"
+  "pre-commit~=3.3",
+  "pytest-sugar~=0.9"
 ]
 docs = [
   "docutils>=0.14,<0.18",
