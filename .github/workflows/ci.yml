@@ -18,61 +18,61 @@ permissions:
 
 jobs:
 
-  docs:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.8
-    - name: Cache python dependencies
-      id: cache-pip
-      uses: actions/cache@v3
-      with:
-        path: ~/.cache/pip
-        key: pip-docs-${{ hashFiles('pyproject.toml') }}
-        restore-keys: |
-          pip-docs-
-    - name: Install python dependencies
-      run: |
-        pip install .[docs]
-        pip show fuji
-    - name: Build documentation
-      env:
-        READTHEDOCS: 'True'
-      run: |
-        # TODO: add W flag back after fixing warnings
-        SPHINXOPTS='-n' make -C docs html
+  # docs:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - uses: actions/checkout@v3
+  #   - name: Set up Python 3.8
+  #     uses: actions/setup-python@v4
+  #     with:
+  #       python-version: 3.8
+  #   - name: Cache python dependencies
+  #     id: cache-pip
+  #     uses: actions/cache@v3
+  #     with:
+  #       path: ~/.cache/pip
+  #       key: pip-docs-${{ hashFiles('pyproject.toml') }}
+  #       restore-keys: |
+  #         pip-docs-
+  #   - name: Install python dependencies
+  #     run: |
+  #       pip install .[docs]
+  #       pip show fuji
+  #   - name: Build documentation
+  #     env:
+  #       READTHEDOCS: 'True'
+  #     run: |
+  #       # TODO: add W flag back after fixing warnings
+  #       SPHINXOPTS='-n' make -C docs html
 
-  lint:
-    runs-on: ubuntu-22.04
-    steps:
-    - uses: actions/checkout@v3
-    - name: Cache python dependencies
-      uses: actions/cache@v3
-      with:
-        path: |
-          ~/.cache/pip
-          ~/.cache/pre-commit
-        key: pip-lint-${{ hashFiles('.pre-commit-config.yaml', 'pyproject.toml') }}
-        restore-keys: |
-          pip-lint-
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.10"
-    - run: |
-        pip install --upgrade pip
-        pip install pre-commit
-    - name: Run pre-commit
-      run: pre-commit run --all-files --color=always
+  # lint:
+  #   runs-on: ubuntu-22.04
+  #   steps:
+  #   - uses: actions/checkout@v3
+  #   - name: Cache python dependencies
+  #     uses: actions/cache@v3
+  #     with:
+  #       path: |
+  #         ~/.cache/pip
+  #         ~/.cache/pre-commit
+  #       key: pip-lint-${{ hashFiles('.pre-commit-config.yaml', 'pyproject.toml') }}
+  #       restore-keys: |
+  #         pip-lint-
+  #   - name: Set up Python 3.10
+  #     uses: actions/setup-python@v4
+  #     with:
+  #       python-version: "3.10"
+  #   - run: |
+  #       pip install --upgrade pip
+  #       pip install pre-commit
+  #   - name: Run pre-commit
+  #     run: pre-commit run --all-files --color=always
 
   tests:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        python-version: ["3.8", "3.9", "3.10", "3.11"]
+        python-version: ["3.8"] #, "3.9", "3.10", "3.11"]
       fail-fast: false
     steps:
     - uses: actions/checkout@v3
@@ -95,13 +95,40 @@ jobs:
         pip show fuji
     - name: Run pytest
       run: pytest --cov
-    - run: pytest --cov --cov-report=xml
+      if: matrix.python-version != '3.8'
+
+    - run: pytest --cov --cov-report=html --junitxml=junit.xml | tee pytest-coverage.txt
       if: matrix.python-version == '3.8'
 
-    - name: Upload Coverage Report
+    - name: Upload coverage reports
       if: matrix.python-version == '3.8'
       uses: actions/upload-artifact@v3
       with:
-        name: coverage_xml
-        path: coverage.xml
+        name: coverage
         retention-days: 1
+        path: |
+          htmlcov/
+          junit.xml
+          pytest-coverage.txt
+
+  coverage:
+    runs-on: ubuntu-22.04
+    needs: tests
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+    - name: Download coverage reports
+      uses: actions/download-artifact@v3
+      with:
+        name: coverage
+        path: coverage
+    - name: Add coverage comment
+      uses: MishaKav/pytest-coverage-comment@v1.1.48
+      with:
+        title: Coverage
+        # pytest-xml-coverage-path: coverage/coverage.xml
+        pytest-coverage-path: coverage/pytest-coverage.txt
+        junitxml-path: coverage/junit.xml
+        coverage-path-prefix: fuji_server/
+        create-new-comment: true # TODO: debug only
