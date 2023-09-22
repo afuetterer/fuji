@@ -35,13 +35,13 @@ interactions:
       Cross-Origin-Resource-Policy:
       - cross-origin
       Date:
-      - Fri, 22 Sep 2023 05:47:43 GMT
+      - Fri, 22 Sep 2023 08:02:50 GMT
       ETag:
       - W/"96f0b8a97b963debd2b8196710f6fb55a22c1b719160c77161bc768dee120c17"
       Expires:
-      - Fri, 22 Sep 2023 05:52:43 GMT
+      - Fri, 22 Sep 2023 08:07:50 GMT
       Source-Age:
-      - '123'
+      - '189'
       Strict-Transport-Security:
       - max-age=31536000
       Vary:
@@ -55,15 +55,15 @@ interactions:
       X-Content-Type-Options:
       - nosniff
       X-Fastly-Request-ID:
-      - 117d07ed2d00099985975306f2070cfca0f5e144
+      - 90de9075de7a6585df7891f5e2a3ce51ea175ca3
       X-Frame-Options:
       - deny
       X-GitHub-Request-Id:
       - 808A:881C:10E2BFD:1194D78:650D1E28
       X-Served-By:
-      - cache-fra-eddf8230035-FRA
+      - cache-fra-eddf8230100-FRA
       X-Timer:
-      - S1695361664.766706,VS0,VE1
+      - S1695369771.548143,VS0,VE1
       X-XSS-Protection:
       - 1; mode=block
     status:
@@ -89,7 +89,7 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 80a841428b959b3a-FRA
+      - 80a90743995e3a7c-FRA
       Connection:
       - close
       Content-Length:
@@ -97,11 +97,11 @@ interactions:
       Content-Type:
       - text/html;charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:44 GMT
+      - Fri, 22 Sep 2023 08:02:54 GMT
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=h3zhP2o7QvU%2BzAgsiqMncDbgisN%2FMM3hxmMiRwfwnFoqfY%2BdEC6gGK30cPFby%2FYIWYfztC6mJ2XMjiX0hmceM%2BXQ4XEc5COFLVYcU9L5LZ0l0ECA5MOANKvP2OwFnoyEKtnH3Nc%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GxPlgqyln3lCo%2Bk5WgIxqWjrjSTI8%2FJyqA3oNo93T6Ez1cda1DAo22qJpkS0qJrSInlayhHHkTdYqQvJoqI0dHlpfkOjqQCPUGlu1mbwdOQj8HQGGt8NYn1VrQ00LLyR2Z3cupU%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Strict-Transport-Security:
@@ -109,7 +109,7 @@ interactions:
       alt-svc:
       - h3=":443"; ma=86400
       expires:
-      - Fri, 22 Sep 2023 06:28:02 GMT
+      - Fri, 22 Sep 2023 08:03:45 GMT
       location:
       - https://zenodo.org/record/8347772
       permissions-policy:
@@ -143,7 +143,7 @@ interactions:
       Content-Type:
       - text/html; charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:45 GMT
+      - Fri, 22 Sep 2023 08:02:59 GMT
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Retry-After:
@@ -151,7 +151,7 @@ interactions:
       Server:
       - nginx
       Set-Cookie:
-      - session=25e6d8204b1d5967_650d2a81.ki_6MhSkmAXBVdls2k2ftWQQoO8; Expires=Mon, 23-Oct-2023 05:47:45 GMT; Secure; HttpOnly; Path=/
+      - session=350850391f43b86a_650d4a33.HqfCgbiblKPnbPKxZ1_eDj_YRmk; Expires=Mon, 23-Oct-2023 08:02:59 GMT; Secure; HttpOnly; Path=/
       Strict-Transport-Security:
       - max-age=0
       Vary:
@@ -165,11 +165,11 @@ interactions:
       X-RateLimit-Remaining:
       - '59'
       X-RateLimit-Reset:
-      - '1695361725'
+      - '1695369839'
       X-Request-ID:
-      - 1903962832cbe352ada79dbb2f73432c
+      - 2a5d8d1bc2b15e17fe66a1f3d9d7d31e
       X-Session-ID:
-      - 25e6d8204b1d5967_650d2a81
+      - 350850391f43b86a_650d4a33
       X-XSS-Protection:
       - 1; mode=block
     status:
@@ -199,15 +199,15 @@ interactions:
       Content-Type:
       - text/html; charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:46 GMT
+      - Fri, 22 Sep 2023 08:03:00 GMT
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Retry-After:
-      - '60'
+      - '59'
       Server:
       - nginx
       Set-Cookie:
-      - session=bac8286ea3762c1a_650d2a82.WcyzsjU-_xMuYaPs3KB6mZabTb8; Expires=Mon, 23-Oct-2023 05:47:46 GMT; Secure; HttpOnly; Path=/
+      - session=64d3266cc4f9789a_650d4a34.Um0juKdH_WWW0NH29WF80tRMwKs; Expires=Mon, 23-Oct-2023 08:03:00 GMT; Secure; HttpOnly; Path=/
       Strict-Transport-Security:
       - max-age=0
       Vary:
@@ -221,11 +221,11 @@ interactions:
       X-RateLimit-Remaining:
       - '58'
       X-RateLimit-Reset:
-      - '1695361727'
+      - '1695369840'
       X-Request-ID:
-      - 5b497f037722804d7558a59c6ee0ace8
+      - 5507e2faab9d5d6153485d48fa9a822d
       X-Session-ID:
-      - bac8286ea3762c1a_650d2a82
+      - 64d3266cc4f9789a_650d4a34
       X-XSS-Protection:
       - 1; mode=block
     status:
@@ -255,7 +255,7 @@ interactions:
       Content-Type:
       - text/html; charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:47 GMT
+      - Fri, 22 Sep 2023 08:03:01 GMT
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Retry-After:
@@ -263,7 +263,7 @@ interactions:
       Server:
       - nginx
       Set-Cookie:
-      - session=2db9d61c974db48b_650d2a83.LS8nbtSJijz5v9ygDakKE64dl28; Expires=Mon, 23-Oct-2023 05:47:47 GMT; Secure; HttpOnly; Path=/
+      - session=1e307e320b8954c4_650d4a35.vbl0lpPPCle_SyhnevywpJHjFr8; Expires=Mon, 23-Oct-2023 08:03:01 GMT; Secure; HttpOnly; Path=/
       Strict-Transport-Security:
       - max-age=0
       Vary:
@@ -277,11 +277,11 @@ interactions:
       X-RateLimit-Remaining:
       - '57'
       X-RateLimit-Reset:
-      - '1695361727'
+      - '1695369841'
       X-Request-ID:
-      - 35ceb79207967e91edda70d330cde5bf
+      - ab03ed656dd2f0b8b59289d62f65db0d
       X-Session-ID:
-      - 2db9d61c974db48b_650d2a83
+      - 1e307e320b8954c4_650d4a35
       X-XSS-Protection:
       - 1; mode=block
     status:
@@ -311,15 +311,15 @@ interactions:
       Content-Type:
       - text/html; charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:47 GMT
+      - Fri, 22 Sep 2023 08:03:02 GMT
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Retry-After:
-      - '60'
+      - '59'
       Server:
       - nginx
       Set-Cookie:
-      - session=3a7c451fff4fabea_650d2a83.Ty74N5QwQZ3oNB-vg_ePOQgBrpM; Expires=Mon, 23-Oct-2023 05:47:47 GMT; Secure; HttpOnly; Path=/
+      - session=be40db65b5538583_650d4a36.nxQuV8qHRC6yjOOz8Qi-7I4We8Q; Expires=Mon, 23-Oct-2023 08:03:02 GMT; Secure; HttpOnly; Path=/
       Strict-Transport-Security:
       - max-age=0
       Vary:
@@ -333,11 +333,11 @@ interactions:
       X-RateLimit-Remaining:
       - '56'
       X-RateLimit-Reset:
-      - '1695361728'
+      - '1695369842'
       X-Request-ID:
-      - 6b9e91ce04ac5c7e6dda902a90e710ad
+      - de412b86d4cc7d2948837dfe1b826958
       X-Session-ID:
-      - 3a7c451fff4fabea_650d2a83
+      - be40db65b5538583_650d4a36
       X-XSS-Protection:
       - 1; mode=block
     status:
@@ -363,7 +363,7 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 80a8415b2850699b-FRA
+      - 80a90775ba1d2c57-FRA
       Connection:
       - close
       Content-Length:
@@ -371,11 +371,11 @@ interactions:
       Content-Type:
       - text/html;charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:48 GMT
+      - Fri, 22 Sep 2023 08:03:02 GMT
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=o2fmfCIqErkv9IR4T91mZCCvRO7%2FD4gT26EVj3VTlkhbWrjcPMZKUty38uRwOXZEuj27xFFY%2BG%2Fe8ibRlD%2BmLxalmsftlYIOYR9laB10uDTg03a4igtYtJHL5x3%2FN5BfoaM0bFE%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Rt4TvPGGwyIz4Zf8QtnpFRi8yiQqD5kaTx8NFMLhKm1QbGyIWJE6K%2BcR8ezUNrDpDtFd6H5E2FfbVk0kGKA4qdyc0cBDI7lMjQECgVlPgz1auOwCHYzvQXMANXgUesZLra3J388%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Strict-Transport-Security:
@@ -383,7 +383,7 @@ interactions:
       alt-svc:
       - h3=":443"; ma=86400
       expires:
-      - Fri, 22 Sep 2023 06:28:02 GMT
+      - Fri, 22 Sep 2023 08:50:33 GMT
       location:
       - https://data.crosscite.org/10.5281%2Fzenodo.8347772
       permissions-policy:
@@ -417,7 +417,7 @@ interactions:
       Content-Type:
       - application/vnd.schemaorg.ld+json; charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:48 GMT
+      - Fri, 22 Sep 2023 08:03:06 GMT
       ETag:
       - W/"2bfcb9d82b3423713f8812fd99109ef0"
       Server:
@@ -431,9 +431,9 @@ interactions:
       X-Powered-By:
       - Phusion Passenger(R) 6.0.13
       X-Request-Id:
-      - 517eaecc-c6a4-4386-a80e-143e9f7e173a
+      - 9dab4bc6-d214-41b8-b44a-1c05a039796e
       X-Runtime:
-      - '0.015331'
+      - '0.016704'
     status:
       code: 200
       message: OK
@@ -461,7 +461,7 @@ interactions:
       Content-Type:
       - text/html; charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:49 GMT
+      - Fri, 22 Sep 2023 08:03:07 GMT
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Retry-After:
@@ -469,7 +469,7 @@ interactions:
       Server:
       - nginx
       Set-Cookie:
-      - session=a9476236a24dfa00_650d2a85.vO4d-VleUToNlqMjL-rXrWUDhgA; Expires=Mon, 23-Oct-2023 05:47:49 GMT; Secure; HttpOnly; Path=/
+      - session=ec6b51730001a51a_650d4a3b.vNM085zIKcEY7LcuUNju91rOvfA; Expires=Mon, 23-Oct-2023 08:03:07 GMT; Secure; HttpOnly; Path=/
       Strict-Transport-Security:
       - max-age=0
       Vary:
@@ -483,11 +483,11 @@ interactions:
       X-RateLimit-Remaining:
       - '55'
       X-RateLimit-Reset:
-      - '1695361730'
+      - '1695369848'
       X-Request-ID:
-      - 90268b07b7bbb0711197855bb0512c49
+      - 8099f9eb233a752998f1299039fed8da
       X-Session-ID:
-      - a9476236a24dfa00_650d2a85
+      - ec6b51730001a51a_650d4a3b
       X-XSS-Protection:
       - 1; mode=block
     status:
@@ -513,7 +513,7 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 80a84163bd9990e0-FRA
+      - 80a907b49db435f9-FRA
       Connection:
       - close
       Content-Length:
@@ -521,11 +521,11 @@ interactions:
       Content-Type:
       - text/html;charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:49 GMT
+      - Fri, 22 Sep 2023 08:03:12 GMT
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xL%2Bp5bz8CZR4MWZcRchGokEDEywTt9VQe4q%2FSf%2BcnFGpZeldx1l8mjlKga3q1HOhPVYFqbt0SlhTfmff0utd8Tn2fnN21Vo%2FRsYy1sRWyVXT%2F1XuWHCmrgYo8tRa736SoNGc9MM%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=A9qbE5d1cYSe0bblPM9wtfzgvTjMOEMTezezRMBlvhrhT6xECS9SWcRojEZ0734pS8HfchlcSA%2BJDbNvOYyxmPgZef15h23ZmoyFGaXPQ6tyYnTdEqv6Adtop0TpBPQ93ii9p2M%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Strict-Transport-Security:
@@ -533,7 +533,7 @@ interactions:
       alt-svc:
       - h3=":443"; ma=86400
       expires:
-      - Fri, 22 Sep 2023 06:03:45 GMT
+      - Fri, 22 Sep 2023 08:35:12 GMT
       location:
       - https://data.crosscite.org/10.5281%2Fzenodo.8347772
       permissions-policy:
@@ -567,7 +567,7 @@ interactions:
       Content-Type:
       - text/plain; charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:50 GMT
+      - Fri, 22 Sep 2023 08:03:13 GMT
       Server:
       - nginx/1.18.0 + Phusion Passenger(R) 6.0.13
       Status:
@@ -579,9 +579,9 @@ interactions:
       X-Powered-By:
       - Phusion Passenger(R) 6.0.13
       X-Request-Id:
-      - b267e26d-9554-41be-813e-1a2e1f1b47a0
+      - c3964f48-2d83-488c-aaff-4ad0040ac454
       X-Runtime:
-      - '0.015174'
+      - '0.016007'
     status:
       code: 422
       message: Unprocessable Entity
@@ -605,7 +605,7 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 80a84169dc3e361d-FRA
+      - 80a907b7adb63809-FRA
       Connection:
       - close
       Content-Length:
@@ -613,11 +613,11 @@ interactions:
       Content-Type:
       - text/html;charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:50 GMT
+      - Fri, 22 Sep 2023 08:03:13 GMT
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rfvCFVRnW%2FRGyHfVIHBeJyoNNbLm9AjB%2F02tVMNCCwQpttoHz42qMv5y4pywAIJdNsUtQgA0o1kO09vkSDFjKWZUygzGUDdO6yXf4xR8bGNXOqhFvmjdXo%2FWCyy30DB%2BowapGis%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2Fh4K1XEAaAlP7jz4oFEEnicghjJitVo0iRnhu2iQk%2FP4W5b%2FqBwGk0%2BNvqt%2Fl7ljMa3vdNgohlcMVmk6ggXbZcGgS8Jyl8XaDLPszg2jfShABeLLyxkpCTJKLMO4j2F8lI%2Bsehk%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Strict-Transport-Security:
@@ -625,7 +625,7 @@ interactions:
       alt-svc:
       - h3=":443"; ma=86400
       expires:
-      - Fri, 22 Sep 2023 05:50:30 GMT
+      - Fri, 22 Sep 2023 08:35:12 GMT
       location:
       - https://data.crosscite.org/10.5281%2Fzenodo.8347772
       permissions-policy:
@@ -659,7 +659,7 @@ interactions:
       Content-Type:
       - text/plain; charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:51 GMT
+      - Fri, 22 Sep 2023 08:03:13 GMT
       Server:
       - nginx/1.18.0 + Phusion Passenger(R) 6.0.13
       Status:
@@ -671,9 +671,9 @@ interactions:
       X-Powered-By:
       - Phusion Passenger(R) 6.0.13
       X-Request-Id:
-      - 978f06fa-d154-46a3-b219-5597eb5ef8f3
+      - 0b5a49f5-e489-411b-a34e-f05dde132cbc
       X-Runtime:
-      - '0.043361'
+      - '0.029344'
     status:
       code: 422
       message: Unprocessable Entity
@@ -697,7 +697,7 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 80a8416d6bab3a6d-FRA
+      - 80a907babb433a44-FRA
       Connection:
       - close
       Content-Length:
@@ -705,11 +705,11 @@ interactions:
       Content-Type:
       - text/html;charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:51 GMT
+      - Fri, 22 Sep 2023 08:03:13 GMT
       NEL:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=duyzr0U6blOrWmUjc6sHS%2FG%2FWxNkMfEtB95nGWOMW%2Fs7JGsHtOUf2MquWjlQDIXmjnDMDPVBuDiCo%2BjYc8hQ05xI7lwNtiYfqq1L%2Fd1rgK7Gb58DgFVLmBe%2FS3ovpF%2BLyCpE7pA%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=e7PkHiTyM%2Fn2sQxzIAUO04bsbUlrMxMm5RKbFfOGWKWy%2F0%2BpOqq09UkU0MXKkUKK2v9DDtlg%2Bkf8K4ow4nzfZ8O8rKU9afPqmyM7kIkp%2BoSrXcvuiRx265JOdywQM1IfN4LpIgI%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Strict-Transport-Security:
@@ -717,7 +717,7 @@ interactions:
       alt-svc:
       - h3=":443"; ma=86400
       expires:
-      - Fri, 22 Sep 2023 06:28:02 GMT
+      - Fri, 22 Sep 2023 08:03:45 GMT
       location:
       - https://data.crosscite.org/10.5281%2Fzenodo.8347772
       permissions-policy:
@@ -751,7 +751,7 @@ interactions:
       Content-Type:
       - application/vnd.datacite.datacite+json; charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:51 GMT
+      - Fri, 22 Sep 2023 08:03:14 GMT
       ETag:
       - W/"b9e1830ebeae04df4b50f81b87c2fbea"
       Server:
@@ -765,9 +765,9 @@ interactions:
       X-Powered-By:
       - Phusion Passenger(R) 6.0.13
       X-Request-Id:
-      - dc5fea52-257e-41f0-bb26-ca7e749063a2
+      - 8ed7fe63-558e-46b5-babc-2fac2e822168
       X-Runtime:
-      - '0.019496'
+      - '0.016664'
     status:
       code: 200
       message: OK
@@ -795,7 +795,7 @@ interactions:
       Content-Type:
       - text/html; charset=iso-8859-1
       Date:
-      - Fri, 22 Sep 2023 05:47:51 GMT
+      - Fri, 22 Sep 2023 08:03:15 GMT
       Location:
       - https://www.re3data.org/api/beta/repositories?query=10.17616/R3QP53
       Server:
@@ -829,7 +829,7 @@ interactions:
       Content-Type:
       - text/xml; charset=UTF-8
       Date:
-      - Fri, 22 Sep 2023 05:47:52 GMT
+      - Fri, 22 Sep 2023 08:03:15 GMT
       Link:
       - /api/beta/repositories; rel="index"
       Server:
@@ -863,7 +863,7 @@ interactions:
       Content-Type:
       - text/xml; charset=UTF-8
       Date:
-      - Fri, 22 Sep 2023 05:47:52 GMT
+      - Fri, 22 Sep 2023 08:03:15 GMT
       Link:
       - /api/beta/repositories; rel="index"
       Server:
@@ -909,9 +909,9 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:52 GMT
+      - Fri, 22 Sep 2023 08:03:16 GMT
       ETag:
-      - W/"60b0b81e065b389547efabf90670809b"
+      - W/"ee9aaab0250c4d62ebd58b2d48280ec7"
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Server:
@@ -935,9 +935,9 @@ interactions:
       X-Powered-By:
       - Phusion Passenger(R) 6.0.18
       X-Request-Id:
-      - e92a5285-bf71-4182-a26d-4e0bfa1129f6
+      - b98d24d1-f4fb-4c60-b2f3-cc914cadd03a
       X-Runtime:
-      - '0.018566'
+      - '0.028459'
       X-XSS-Protection:
       - 1; mode=block
     status:
@@ -958,7 +958,7 @@ interactions:
     uri: https://zenodo.org/oai2d?verb=ListMetadataFormats
   response:
     body:
-      string: "<?xml version='1.0' encoding='UTF-8'?>\n<?xml-stylesheet type=\"text/xsl\" href=\"/static/xsl/oai2.xsl\"?>\n<OAI-PMH xmlns=\"http://www.openarchives.org/OAI/2.0/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd\">\n  <responseDate>2023-09-22T05:47:53Z</responseDate>\n  <request verb=\"ListMetadataFormats\">https://zenodo.org/oai2d</request>\n  <ListMetadataFormats>\n    <metadataFormat>\n      <metadataPrefix>marcxml</metadataPrefix>\n      <schema>http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd</schema>\n      <metadataNamespace>http://www.loc.gov/MARC21/slim</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>oai_datacite4</metadataPrefix>\n      <schema>http://schema.datacite.org/meta/kernel-4.1/metadata.xsd</schema>\n      <metadataNamespace>http://datacite.org/schema/kernel-4</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>oai_dc</metadataPrefix>\n      <schema>http://www.openarchives.org/OAI/2.0/oai_dc.xsd</schema>\n      <metadataNamespace>http://www.openarchives.org/OAI/2.0/oai_dc/</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>dcat</metadataPrefix>\n      <schema>http://schema.datacite.org/meta/kernel-4.1/metadata.xsd</schema>\n      <metadataNamespace>https://www.w3.org/ns/dcat</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>oai_datacite</metadataPrefix>\n      <schema>http://schema.datacite.org/meta/kernel-3/metadata.xsd</schema>\n      <metadataNamespace>http://datacite.org/schema/kernel-3</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>marc21</metadataPrefix>\n      <schema>http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd</schema>\n      <metadataNamespace>http://www.loc.gov/MARC21/slim</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>datacite</metadataPrefix>\n      <schema>http://schema.datacite.org/meta/kernel-4.1/metadata.xsd</schema>\n      <metadataNamespace>http://datacite.org/schema/kernel-4</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>datacite3</metadataPrefix>\n      <schema>http://schema.datacite.org/meta/kernel-3/metadata.xsd</schema>\n      <metadataNamespace>http://datacite.org/schema/kernel-3</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>datacite4</metadataPrefix>\n      <schema>http://schema.datacite.org/meta/kernel-4.1/metadata.xsd</schema>\n      <metadataNamespace>http://datacite.org/schema/kernel-4</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>oai_datacite3</metadataPrefix>\n      <schema>http://schema.datacite.org/meta/kernel-3/metadata.xsd</schema>\n      <metadataNamespace>http://datacite.org/schema/kernel-3</metadataNamespace>\n    </metadataFormat>\n  </ListMetadataFormats>\n</OAI-PMH>\n"
+      string: "<?xml version='1.0' encoding='UTF-8'?>\n<?xml-stylesheet type=\"text/xsl\" href=\"/static/xsl/oai2.xsl\"?>\n<OAI-PMH xmlns=\"http://www.openarchives.org/OAI/2.0/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd\">\n  <responseDate>2023-09-22T08:03:16Z</responseDate>\n  <request verb=\"ListMetadataFormats\">https://zenodo.org/oai2d</request>\n  <ListMetadataFormats>\n    <metadataFormat>\n      <metadataPrefix>marcxml</metadataPrefix>\n      <schema>http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd</schema>\n      <metadataNamespace>http://www.loc.gov/MARC21/slim</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>oai_datacite4</metadataPrefix>\n      <schema>http://schema.datacite.org/meta/kernel-4.1/metadata.xsd</schema>\n      <metadataNamespace>http://datacite.org/schema/kernel-4</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>oai_dc</metadataPrefix>\n      <schema>http://www.openarchives.org/OAI/2.0/oai_dc.xsd</schema>\n      <metadataNamespace>http://www.openarchives.org/OAI/2.0/oai_dc/</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>dcat</metadataPrefix>\n      <schema>http://schema.datacite.org/meta/kernel-4.1/metadata.xsd</schema>\n      <metadataNamespace>https://www.w3.org/ns/dcat</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>oai_datacite</metadataPrefix>\n      <schema>http://schema.datacite.org/meta/kernel-3/metadata.xsd</schema>\n      <metadataNamespace>http://datacite.org/schema/kernel-3</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>marc21</metadataPrefix>\n      <schema>http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd</schema>\n      <metadataNamespace>http://www.loc.gov/MARC21/slim</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>datacite</metadataPrefix>\n      <schema>http://schema.datacite.org/meta/kernel-4.1/metadata.xsd</schema>\n      <metadataNamespace>http://datacite.org/schema/kernel-4</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>datacite3</metadataPrefix>\n      <schema>http://schema.datacite.org/meta/kernel-3/metadata.xsd</schema>\n      <metadataNamespace>http://datacite.org/schema/kernel-3</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>datacite4</metadataPrefix>\n      <schema>http://schema.datacite.org/meta/kernel-4.1/metadata.xsd</schema>\n      <metadataNamespace>http://datacite.org/schema/kernel-4</metadataNamespace>\n    </metadataFormat>\n    <metadataFormat>\n      <metadataPrefix>oai_datacite3</metadataPrefix>\n      <schema>http://schema.datacite.org/meta/kernel-3/metadata.xsd</schema>\n      <metadataNamespace>http://datacite.org/schema/kernel-3</metadataNamespace>\n    </metadataFormat>\n  </ListMetadataFormats>\n</OAI-PMH>\n"
     headers:
       Connection:
       - close
@@ -967,7 +967,7 @@ interactions:
       Content-Type:
       - text/xml; charset=utf-8
       Date:
-      - Fri, 22 Sep 2023 05:47:53 GMT
+      - Fri, 22 Sep 2023 08:03:16 GMT
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Retry-After:
@@ -975,7 +975,7 @@ interactions:
       Server:
       - nginx
       Set-Cookie:
-      - session=2794487e9e4d62be_650d2a89.Mrqo02MCpSBFaH8oLp45CC-Xa5M; Expires=Mon, 23-Oct-2023 05:47:53 GMT; Secure; HttpOnly; Path=/
+      - session=a12557ea3577186f_650d4a44.lAdEvl9iePw8tsCH2yRN5nmqPbE; Expires=Mon, 23-Oct-2023 08:03:16 GMT; Secure; HttpOnly; Path=/
       Strict-Transport-Security:
       - max-age=0
       Vary:
@@ -989,11 +989,11 @@ interactions:
       X-RateLimit-Remaining:
       - '119'
       X-RateLimit-Reset:
-      - '1695361734'
+      - '1695369857'
       X-Request-ID:
-      - 2f52109d310945080851407b02e17365
+      - d77e130774aae3d8f3234922e02753d0
       X-Session-ID:
-      - 2794487e9e4d62be_650d2a89
+      - a12557ea3577186f_650d4a44
       X-XSS-Protection:
       - 1; mode=block
     status:

@@ -91,5 +91,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip setuptools wheel
         python -m pip install hatch
+
+    # Temporary
+    - run: hatch run pip list
+    - run: hatch run pip list --outdated
+
     - name: Run test suite with coverage
       run: hatch run cov
