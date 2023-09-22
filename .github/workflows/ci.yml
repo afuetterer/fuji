@@ -24,7 +24,7 @@ jobs:
   # docs:
   #   runs-on: ubuntu-22.04
   #   steps:
-  #   - uses: actions/checkout@v3
+  #   - uses: actions/checkout@v4
   #   - name: Set up Python 3.11
   #     uses: actions/setup-python@v4
   #     with:
@@ -50,7 +50,7 @@ jobs:
   lint:
     runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Cache python dependencies
       uses: actions/cache@v3
       with:
@@ -73,9 +73,9 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        python-version: ['3.11', '3.8']
+        python-version: ['3.11']
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Cache python dependencies
       uses: actions/cache@v3
       with:
