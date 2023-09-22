@@ -74,7 +74,7 @@ jobs:
     strategy:
       matrix:
         python-version: ['3.11', '3.8']
-      fail-fast: false
+      fail-fast: false # TODO
     steps:
     - uses: actions/checkout@v3
     - name: Cache python dependencies
@@ -110,3 +110,28 @@ jobs:
         path: |
           htmlcov/
           junit.xml
+          pytest-coverage.txt
+
+  coverage:
+    runs-on: ubuntu-22.04
+    needs: tests
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+    - name: Download coverage reports
+      uses: actions/download-artifact@v3
+      with:
+        name: coverage
+        path: coverage
+    # https://github.com/MishaKav/pytest-coverage-comment
+    # https://github.com/MishaKav/pytest-coverage-comment/blob/main/.github/workflows/live-test.yml
+    - name: Add coverage comment
+      uses: MishaKav/pytest-coverage-comment@v1.1.48
+      with:
+        title: Coverage
+        # pytest-xml-coverage-path: coverage/coverage.xml
+        pytest-coverage-path: coverage/pytest-coverage.txt
+        junitxml-path: coverage/junit.xml
+        coverage-path-prefix: fuji_server/
+        create-new-comment: true # TODO: debug only
