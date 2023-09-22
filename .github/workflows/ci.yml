@@ -108,7 +108,6 @@ jobs:
         name: coverage
         retention-days: 1
         path: |
-          htmlcov/
           junit.xml
           pytest-coverage.txt
 
