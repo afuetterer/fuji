@@ -92,15 +92,12 @@ jobs:
       run: |
         python -m pip install --upgrade pip setuptools wheel
         python -m pip install hatch
-
     - name: Run test suite with coverage
       run: hatch run cov
       if: matrix.python-version != '3.8'
-
-    - name: Run test suite with coverage
+    - name: Run test suite with coverage (upload report)
       run: hatch run cov-ci
       if: matrix.python-version == '3.8'
-
     - name: Upload coverage reports
       if: matrix.python-version == '3.8'
       uses: actions/upload-artifact@v3
@@ -123,14 +120,11 @@ jobs:
       with:
         name: coverage
         path: coverage
-    # https://github.com/MishaKav/pytest-coverage-comment
-    # https://github.com/MishaKav/pytest-coverage-comment/blob/main/.github/workflows/live-test.yml
+    # Ref: https://github.com/MishaKav/pytest-coverage-comment
     - name: Add coverage comment
       uses: MishaKav/pytest-coverage-comment@v1.1.48
       with:
         title: Coverage
-        # pytest-xml-coverage-path: coverage/coverage.xml
         pytest-coverage-path: coverage/pytest-coverage.txt
         junitxml-path: coverage/junit.xml
-        coverage-path-prefix: fuji_server/
         create-new-comment: true # TODO: debug only
