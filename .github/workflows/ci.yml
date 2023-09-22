@@ -127,4 +127,3 @@ jobs:
         title: Coverage
         pytest-coverage-path: coverage/pytest-coverage.txt
         junitxml-path: coverage/junit.xml
-        create-new-comment: true # TODO: debug only
