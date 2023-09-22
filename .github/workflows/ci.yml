@@ -91,5 +91,21 @@ jobs:
       run: |
         python -m pip install --upgrade pip setuptools wheel
         python -m pip install hatch
+
     - name: Run test suite with coverage
       run: hatch run cov
+      if: matrix.python-version != '3.8'
+
+    - name: Run test suite with coverage
+      run: hatch run cov-ci
+      if: matrix.python-version == '3.8'
+
+    - name: Upload coverage reports
+      if: matrix.python-version == '3.8'
+      uses: actions/upload-artifact@v3
+      with:
+        name: coverage
+        retention-days: 1
+        path: |
+          htmlcov/
+          junit.xml
