@@ -110,7 +110,6 @@ jobs:
       uses: actions/download-artifact@v3
       with:
         name: coverage
-        path: coverage
     # Ref: https://github.com/MishaKav/pytest-coverage-comment
     - name: Add coverage comment
       uses: MishaKav/pytest-coverage-comment@v1.1.48
