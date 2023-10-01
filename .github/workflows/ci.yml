@@ -86,7 +86,7 @@ jobs:
       run: hatch run cov-ci
     - name: Generate badges
       if: always()
-      run: genbadge tests --input-file=pytest-junit.xml
+      run: hatch run badges
     - name: Upload test results
       if: always()
       uses: actions/upload-artifact@v3
