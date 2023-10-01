@@ -1,0 +1,34 @@
+# Ref: https://github.com/EnricoMi/publish-unit-test-result-action#support-fork-repositories-and-dependabot-branches
+name: Pytest Results
+
+on:
+  workflow_run:
+    workflows: [CI]
+    types:
+    - completed
+permissions: {}
+
+jobs:
+  test-results:
+    runs-on: ubuntu-22.04
+    if: github.event.workflow_run.conclusion != 'skipped'
+    permissions:
+      checks: write
+      # required to create pull request comments
+      pull-requests: write
+      # required by download step to access artifacts API
+      actions: read
+    steps:
+    - name: Download and Extract Artifacts
+      uses: dawidd6/action-download-artifact@246dbf436b23d7c49e21a7ab8204ca9ecd1fe615
+      with:
+        run_id: ${{ github.event.workflow_run.id }}
+        path: artifacts
+    - name: Publish Test Results
+      uses: EnricoMi/publish-unit-test-result-action@v2
+      with:
+        comment_title: Pytest Results
+        commit: ${{ github.event.workflow_run.head_sha }}
+        event_file: artifacts/event-file/event.json
+        event_name: ${{ github.event.workflow_run.event }}
+        files: artifacts/test-results/pytest-junit.xml
