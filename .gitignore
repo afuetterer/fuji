@@ -77,7 +77,6 @@ coverage.xml
 *,cover
 .hypothesis/
 junit.xml
-pytest-coverage.txt
 
 # Translations
 *.mo
