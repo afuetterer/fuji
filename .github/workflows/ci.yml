@@ -84,12 +84,15 @@ jobs:
         python -m pip install --upgrade hatch
 
     - name: Run test suite with coverage
-      run: hatch run cov-md
-      continue-on-error: true
+      run: hatch run cov-md || pytest_exit_code=$?
+      # continue-on-error: true
 
-    - run: |
-        echo "## :clipboard: Test Results" >> $GITHUB_STEP_SUMMARY
+    - name: Write pytest results to step summary
+      run: |
+        echo "## :clipboard: Pytest Results" >> $GITHUB_STEP_SUMMARY
         cat pytest-report.md >> $GITHUB_STEP_SUMMARY
+
+    - run: exit $pytest_exit_code
 
     # - name: Upload coverage reports
     #   uses: actions/upload-artifact@v3

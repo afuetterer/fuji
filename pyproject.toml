@@ -130,7 +130,7 @@ features = [
 cov = "pytest --cov {args}"
 cov-ci = "pytest --cov --junitxml=junit.xml | tee pytest-coverage.txt"
 cov-html = "pytest --cov --cov-report=html {args}"
-cov-md = "pytest --cov --md-report --md-report-zeros=empty --md-report-output=pytest-report.md {args}"
+cov-md = "pytest --cov --md-report --md-report-output=pytest-report.md {args}"
 cov-xml = "pytest --cov --cov-report=xml {args}"
 lint = "pre-commit run --all-files --color=always {args}"
 test = "pytest {args}"
