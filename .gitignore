@@ -76,7 +76,7 @@ nosetests.xml
 coverage.xml
 *,cover
 .hypothesis/
-junit.xml
+pytest-junit.xml
 
 # Translations
 *.mo
