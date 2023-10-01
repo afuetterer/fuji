@@ -32,3 +32,24 @@ jobs:
         event_file: artifacts/event-file/event.json
         event_name: ${{ github.event.workflow_run.event }}
         files: artifacts/test-results/pytest-junit.xml
+
+  coverage-results:
+    runs-on: ubuntu-22.04
+    if: github.event.workflow_run.conclusion != 'skipped'
+    permissions:
+      checks: write
+      # required to create pull request comments
+      pull-requests: write
+      # required by download step to access artifacts API
+      actions: read
+    steps:
+    - name: Download and Extract Artifacts
+      uses: dawidd6/action-download-artifact@268677152d06ba59fcec7a7f0b5d961b6ccd7e1e # v2.28.0
+      with:
+        run_id: ${{ github.event.workflow_run.id }}
+        path: artifacts
+
+    - name: Code Coverage Summary Report
+      uses: irongut/CodeCoverageSummary@v1.3.0
+      with:
+        filename: pytest-cobertura.xml
