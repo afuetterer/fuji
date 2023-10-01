@@ -129,7 +129,7 @@ features = [
 [tool.hatch.envs.default.scripts]
 badges = "genbadge tests --input-file=pytest-junit.xml"
 cov = "pytest --cov {args}"
-cov-ci = "pytest --cov --junitxml=pytest-junit.xml {args}"
+cov-ci = "pytest --cov --junitxml=pytest-junit.xml --cov-report=xml:pytest-cobertura.xml {args}"
 cov-html = "pytest --cov --cov-report=html {args}"
 lint = "pre-commit run --all-files --color=always {args}"
 test = "pytest {args}"

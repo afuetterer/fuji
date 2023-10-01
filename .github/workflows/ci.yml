@@ -94,6 +94,13 @@ jobs:
         name: test-results
         retention-days: 1
         path: pytest-junit.xml
+    - name: Upload coverage results
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: coverage-results
+        retention-days: 1
+        path: pytest-cobertura.xml
 
   event_file:
     runs-on: ubuntu-22.04
