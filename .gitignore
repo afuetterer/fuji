@@ -78,6 +78,7 @@ coverage.xml
 .hypothesis/
 junit.xml
 pytest-coverage.txt
+pytest-report.md
 
 # Translations
 *.mo
