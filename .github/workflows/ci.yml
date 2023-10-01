@@ -86,30 +86,50 @@ jobs:
     - name: Run test suite with coverage
       run: hatch run cov-ci
 
-    - name: Upload coverage reports
+    # https://github.com/EnricoMi/publish-unit-test-result-action#support-fork-repositories-and-dependabot-branches
+
+    - name: Upload test results
       uses: actions/upload-artifact@v3
       with:
-        name: coverage
+        name: test-results
         retention-days: 1
         path: |
           junit.xml
-          pytest-coverage.txt
 
-  coverage:
+    # - name: Upload Test Results
+    #   if: always()
+    #   uses: actions/upload-artifact@v3
+    #   with:
+    #     name: Test Results
+    #     path: |
+    #       test-results/*.xml
+
+  event_file:
     runs-on: ubuntu-22.04
-    needs: tests
-    permissions:
-      contents: read
-      pull-requests: write
     steps:
-    - name: Download coverage reports
-      uses: actions/download-artifact@v3
+    - name: Upload
+      uses: actions/upload-artifact@v3
       with:
-        name: coverage
-    # Ref: https://github.com/MishaKav/pytest-coverage-comment
-    - name: Add coverage comment
-      uses: MishaKav/pytest-coverage-comment@v1.1.48
-      with:
-        title: Coverage
-        pytest-coverage-path: pytest-coverage.txt
-        junitxml-path: junit.xml
+        name: event-file
+        path: ${{ github.event_path }}
+
+
+
+  # coverage:
+  #   runs-on: ubuntu-22.04
+  #   needs: tests
+  #   permissions:
+  #     contents: read
+  #     pull-requests: write
+  #   steps:
+  #   - name: Download coverage reports
+  #     uses: actions/download-artifact@v3
+  #     with:
+  #       name: coverage
+  #   # Ref: https://github.com/MishaKav/pytest-coverage-comment
+  #   - name: Add coverage comment
+  #     uses: MishaKav/pytest-coverage-comment@v1.1.48
+  #     with:
+  #       title: Coverage
+  #       pytest-coverage-path: pytest-coverage.txt
+  #       junitxml-path: junit.xml
