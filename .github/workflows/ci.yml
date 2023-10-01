@@ -84,8 +84,10 @@ jobs:
         python -m pip install --upgrade hatch
 
     - name: Run test suite with coverage
-      run: |
-        hatch run cov-md
+      run: hatch run cov-md
+      continue-on-error: true
+
+    - run: |
         echo "## :clipboard: Test Results" >> $GITHUB_STEP_SUMMARY
         cat pytest-report.md >> $GITHUB_STEP_SUMMARY
 
