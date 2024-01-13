@@ -87,6 +87,13 @@ jobs:
     - name: Generate badges
       if: always()
       run: hatch run badges
+    - name: Upload badges
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: badges
+        retention-days: 1
+        path: docs/badges
     - name: Upload test results
       if: always()
       uses: actions/upload-artifact@v4

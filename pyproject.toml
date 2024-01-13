@@ -122,7 +122,10 @@ features = [
 ]
 
 [tool.hatch.envs.default.scripts]
-badges = "genbadge tests --input-file=pytest-junit.xml"
+badges = """
+  genbadge tests --input-file=pytest-junit.xml --output-file=docs/badges/tests.svg
+  genbadge coverage --input-file=pytest-cobertura.xml --output-file=docs/badges/coverage.svg
+"""
 cov = "pytest --cov {args}"
 cov-ci = "pytest --cov --junitxml=pytest-junit.xml --cov-report=xml:pytest-cobertura.xml {args}"
 cov-html = "pytest --cov --cov-report=html {args}"
