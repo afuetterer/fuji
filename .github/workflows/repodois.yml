@@ -1,0 +1,53 @@
+name: Update re3data repo DOIs
+
+on:
+  schedule:
+    # run once a month at midnight of the first day of the month
+  - cron: 0 0 1 * *
+  # run manually from actions tab
+  workflow_dispatch:
+
+concurrency:
+  group: repodois-${{ github.head_ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHONUNBUFFERED: 1
+  FORCE_COLOR: 1 # colored output by pytest etc.
+  CLICOLOR_FORCE: 1 # colored output by ruff
+
+permissions:
+  contents: read
+
+jobs:
+  update-repodois:
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: pip
+    - name: Install python dependencies
+      run: |
+        python -m pip install --upgrade pip setuptools wheel
+        python -m pip install --upgrade hatch
+
+    - name: Run server (downloads repodois by default)
+      run: |
+        hatch run python -m fuji_server -c fuji_server/config/server.ini & sleep 10
+        pkill python
+
+      # Ref: https://github.com/peter-evans/create-pull-request
+    - name: Create pull request
+      uses: peter-evans/create-pull-request@153407881ec5c347639a548ade7d8ad1d6740e38   # v5.0.2
+      with:
+        branch: update-repodois
+        committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+        author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+        title: 'chore: update repodois'
+        commit-message: 'chore: update repodois'
+        add-paths: fuji-server/data/repodois.yaml
+        body-path: pr-body.md
+        delete-branch: true
