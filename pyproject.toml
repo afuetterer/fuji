@@ -60,7 +60,7 @@ keywords = [
 license = "MIT"
 name = "fuji"
 readme = "README.md"
-requires-python = "~=3.11"  # at the moment only Python 3.11 is supported
+requires-python = "~=3.12"  # at the moment only Python 3.12 is supported
 version = "3.2.0"
 
 [project.optional-dependencies]
@@ -116,11 +116,7 @@ include = [
 packages = ["fuji_server"]
 
 [tool.hatch.envs.default]
-dev-mode = true
-features = [
-  "lint",
-  "testing"
-]
+features = ["lint"]
 
 [tool.hatch.envs.default.scripts]
 cov = "pytest --cov {args}"
@@ -155,10 +151,9 @@ markers = [
 testpaths = "tests"
 
 [tool.ruff]
-line-length = 120
 # Ref: https://docs.astral.sh/ruff/configuration/
+line-length = 120
 src = ["fuji_server"]
-target-version = "py311"
 
 [tool.ruff.lint]
 extend-select = [
