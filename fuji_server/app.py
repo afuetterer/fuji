@@ -14,13 +14,13 @@ from werkzeug.middleware.proxy_fix import ProxyFix
 from fuji_server import encoder
 
 
-def create_app(config):
+def create_app(settings):
     """
     Function which initializes the FUJI connexion flask app and returns it
     """
     ROOT_DIR = Path(__file__).parent
-    SPEC_DIR = ROOT_DIR / config["SERVICE"]["yaml_directory"]
-    API_YAML = SPEC_DIR / config["SERVICE"]["openapi_yaml"]
+    SPEC_DIR = ROOT_DIR / settings.service.yaml_directory
+    API_YAML = SPEC_DIR / settings.service.openapi_yaml
 
     jsonifier = Jsonifier(json, cls=encoder.CustomJSONEncoder)
     app = connexion.App(__name__, specification_dir=SPEC_DIR, jsonifier=jsonifier)
