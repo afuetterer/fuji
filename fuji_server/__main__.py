@@ -72,11 +72,13 @@ def configure_logger(settings):
 
     logging_config = configparser.ConfigParser()
     logging_config.read(log_configfile)
+
     logging.config.fileConfig(log_configfile, defaults={"logfilename": log_file_path})
     logger = logging.getLogger(__name__)
 
-    # TODO: this does not work
     logging.getLogger("connexion").setLevel("INFO")
+    # connexion_logger.fileConfig(log_configfile)
+
     return logger
 
 
