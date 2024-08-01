@@ -22,6 +22,9 @@ def create_app(settings):
     SPEC_DIR = ROOT_DIR / settings.service.yaml_directory
     API_YAML = SPEC_DIR / settings.service.openapi_yaml
 
+    # print(settings.service)
+    print(ROOT_DIR, SPEC_DIR, API_YAML)
+
     jsonifier = Jsonifier(json, cls=encoder.CustomJSONEncoder)
     app = connexion.App(__name__, specification_dir=SPEC_DIR, jsonifier=jsonifier)
     app.add_api(API_YAML, validate_responses=True, jsonifier=jsonifier)

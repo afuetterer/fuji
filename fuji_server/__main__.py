@@ -69,11 +69,15 @@ def configure_logger(settings):
     log_file_path = log_directory / "fuji.log"
     if not log_directory.exists():
         log_directory.mkdir(exist_ok=True)
+
     logging_config = configparser.ConfigParser()
     logging_config.read(log_configfile)
     logging.config.fileConfig(log_configfile, defaults={"logfilename": log_file_path})
+    logger = logging.getLogger(__name__)
+
+    # TODO: this does not work
     logging.getLogger("connexion").setLevel("INFO")
-    return logging.getLogger(__name__)
+    return logger
 
 
 if __name__ == "__main__":
@@ -88,12 +92,5 @@ if __name__ == "__main__":
 
     # load logging config
     logger = configure_logger(settings)
-    # logging_config = configparser.ConfigParser()
-    # logging_config.read(log_configfile)
-
-    # logging.config.fileConfig(log_configfile, defaults={"logfilename": log_file_path})
-    # logging.getLogger("connexion").setLevel("INFO")
-
-    # logger = logging.getLogger(__name__)
 
     main(settings)
